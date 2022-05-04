@@ -1,11 +1,10 @@
 import "./App.css";
-import Card_create from './components/CreateCard';
-import GiftCard from './components/Gift_card';
+import Bag from "./components/bag";
 
 function App() {
     return <div className="App">
-         <div><Card_create/></div>
-     <div> <GiftCard/></div>
+         
+     <Bag/>
 
     </div>;
 }

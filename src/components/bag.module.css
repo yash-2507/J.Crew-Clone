@@ -1,0 +1,157 @@
+.parent_div{
+    width:1263.33px;
+    height: 475px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.first_div{
+    width: 642px;
+    height: 475px;
+    border: 1px solid black;
+}
+
+.second_div{
+    width:309px;
+    height: 475px;
+    border: 1px solid black;
+}
+.div1{
+    width:642px;
+    height: 224px;
+    border: 1px solid yellow;
+}
+.div12{
+    width:642px;
+    height: 49px;
+    border: 1px solid blue;
+}
+.div13{
+    width:642px;
+    height: 175px;
+    border: 1px solid black;
+}
+.div131{
+    width:642px;
+    height: 31px;
+    border: 1px solid red;
+}
+
+.div132{
+    width:642px;
+    height: 144px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width:120px;
+    height: 120px;
+    border: 1px solid black;
+}
+.box2{
+    width:314px;
+    height: 120px;
+    border: 1px solid black;
+    
+}
+.bo1{
+    width:314px;
+    height: 74.95px;
+    border: 1px solid grey;
+    line-height: 0px;
+    margin-top: 0px;
+
+}
+.bo1 p{
+    font-size: 12px;
+}
+.bo2{
+    width:314px;
+    height: 30px;
+    border: 1px solid grey;
+    margin-top: 12px;
+}
+.bo2 button{
+    width:104px;
+    height: 30px;
+    border: 1px solid green;
+}
+.box3{
+    width:70px;
+    height: 120px;
+    border: 1px solid black;
+}
+.box4{
+    width:90px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.div2{
+    width:642px;
+    height: 169px;
+    border: 1px solid black;
+}
+.div21{
+    width:642px;
+    height: 49px;
+    border: 1px solid blue;
+}
+.div22{
+    width:642px;
+    height: 120px;
+    border: 1px solid grey;
+}
+button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid pink;
+}
+
+.last1{
+    width: 309px;
+    height: 132px;
+    border: 1px solid blue;
+}
+.last2{
+    width: 309px;
+    height: 136px;
+    border: 1px solid blue;
+}
+.last2 button{
+    width: 285px;
+    height: 44px;
+    background-color: blue;
+}
+.last2 p{
+    font-size: 13px;
+}
+.last3{
+    width: 309px;
+    height: 99px;
+    border: 1px solid blue;
+}
+
+input{
+   width: 194.51px;
+   height: 44px;
+}
+.last3 button{
+    width: 78.49px;
+    height: 44px;
+}
+.price{
+    width: 285px;
+    height: 30px;
+    border: 1px solid yellow;
+}
+
+.estm{
+    width: 285px;
+    height: 66px;
+    border: 1px solid red;
+}
