@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import { Cart, Heart } from "./Icons";
 import styles from "./styles/Navbar.module.css";
 import { HeartIcon, MainLogo } from "./SvgIcons";
 
