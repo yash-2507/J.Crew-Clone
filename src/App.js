@@ -9,7 +9,7 @@ class App extends React.Component {
     products: [
       {
         "_id": "1",
-        "title": "Nike Shoes",
+        "title": "Indian madras shirt in cotton",
         "src": [
           "https://www.jcrew.com/s7-img-facade/BH600_YD1079_d1?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
           "https://www.jcrew.com/s7-img-facade/BH600_YD1079_d2?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
@@ -101,6 +101,28 @@ class App extends React.Component {
                 </ul>
                 <br />
                 <hr />
+
+                <h3>Product Details</h3>
+                <p>The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.</p>
+                <ul>
+                  <li>Hemp/cotton.</li>
+                  <li>Machine wash.</li>
+                  <li>Import.</li>
+                  <li>Select stores.</li>
+                  <li>Item BH600.</li>
+                </ul>
+                <h3>Our Fabrics, Re-imagined</h3>
+                <br />
+
+                <div className='earth'>
+                  <img src="https://images.jcrew.com/fsi/images/ReImagined-Sustainble-new.svg" alt="" />
+                  <div>
+                    <h3>Sustainable</h3>
+                    <p>This item contains a sustainable material, like organic cotton, recycled polyester, or with certifications like Fair Trade.</p>
+                    <br />
+                  </div>
+
+                </div>
 
 
                 <DetailsThumb images={item.src} tab={this.handleTab} myRef={this.myRef} />
