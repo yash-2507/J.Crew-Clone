@@ -118,7 +118,7 @@ class App extends React.Component {
                   <img src="https://images.jcrew.com/fsi/images/ReImagined-Sustainble-new.svg" alt="" />
                   <div>
                     <h3>Sustainable</h3>
-                    <p>This item contains a sustainable material, like organic cotton, recycled polyester, or with certifications like Fair Trade..</p>
+                    <p>This item contains a sustainable material, like organic cotton, recycled polyester, or with certifications like Fair Trade...</p>
                     <br />
                   </div>
 
