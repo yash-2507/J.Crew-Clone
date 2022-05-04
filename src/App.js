@@ -1,7 +1,10 @@
 import "./App.css";
+import CheckOut from "./components/checkOut_page/CheckOut";
 
 function App() {
-    return <div className="App"></div>;
+    return <div>
+        <CheckOut/>
+    </div>;
 }
 
 export default App;

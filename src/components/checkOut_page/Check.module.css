@@ -1,0 +1,189 @@
+.container {
+  display: grid;
+  grid-template-columns: 500px 330px;
+  grid-template-rows: auto;
+  margin: auto;
+
+  width: 850px;
+  margin-top: 30px;
+
+  gap: 20px;
+  grid-template-areas:
+    "a b"
+    "c b"
+    "c b"
+    "d d";
+}
+body {
+  background-color: #f8f8f8;
+}
+
+.container > div {
+  background-color: white;
+  border: 1px solid rgb(236, 222, 222);
+}
+
+.centerFistDiv {
+  grid-area: a;
+  height: 170px;
+  padding: 0 45px 10px;
+}
+.centerFistDiv > p {
+  margin-top: 13px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sideDiv {
+  grid-area: b;
+  height: 300px;
+  display: grid;
+}
+.sideDiv > div {
+  display: flex;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: auto;
+  font-weight: 500;
+}
+.centerLastDiv {
+  grid-area: d;
+  width: 495px;
+  height: 100px;
+}
+.centerSecDIv {
+  grid-area: c;
+  width: 495px;
+  height: 650px;
+  
+}
+.centerSecDIv > div>  p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.centerSecDIv>div{
+
+  height: 600px;
+  width: 80%;
+  margin: auto;
+}
+
+
+.centerSecDIv>div>.addressBar>input{
+  height: 35px;
+  padding-left: 10px;
+  font-size: 13px;
+  width: 50%;
+
+}
+.centerSecDIv>div>.addressBar{
+  display: flex;
+  width: 397px;
+  gap: 17px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.centerSecDIv>div>input{
+  height: 37px;
+  padding-left: 10px;
+  font-size: 13px;
+  width: 380px;
+
+}
+
+.addressIn{
+  margin-top: 20px;
+}
+.centerSecDIv>div>label{
+  position: relative;
+}
+.form__field:nth-child(1) {
+    flex: 1;
+    max-width: 378px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.checkbox_round {
+  width: 1.5em;
+  height: 1.4em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px double rgb(230, 237, 232);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  border-style: double;
+}
+
+.checkbox_round:checked {
+  background-color: rgb(60, 119, 247);
+  border: 3px solid rgb(233, 226, 226);
+}
+
+.deliveryMethod {
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: 70% 25%;
+  width: 400px;
+}
+.deliveryMethod > div {
+  display: flex;
+  gap: 10px;
+}
+.deliveryMethod > div > div > p:first-child {
+  font-size: 12px;
+  font-weight: bold;
+}
+.deliveryMethod > div > div > p {
+  font-size: 10px;
+}
+.deliveryMethod > div > div > input {
+  margin-top: 20px;
+}
+.deliveryMethod > div:last-child {
+  margin: auto;
+}
+
+.inrtwo {
+  margin: auto;
+  font-size: 11px;
+  font-weight: bold;
+}
+.perChase_Checkbox{
+  display: flex;
+  gap: 10px;
+}
+
+.perChase_Checkbox>input{
+  height: 20px;
+  width: 20px;
+}
+.perChase_Checkbox>label{
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.selectTagCountry{
+  width: 100px;
+  height : 35px;
+}
+.selectTagCountry+input{
+  height : 30px;
+  width: 280px;
+  padding-left: 10px;
+}
+
+.perChase_Checkbox+div{
+  margin-top: 20px;
+}
