@@ -106,6 +106,9 @@
     height: 120px;
     border: 1px solid grey;
 }
+.div22 p{
+    text-align: center;
+}
 button{
     width: 30px;
     height: 30px;
@@ -148,10 +151,22 @@ input{
     width: 285px;
     height: 30px;
     border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
 }
 
 .estm{
     width: 285px;
     height: 66px;
     border: 1px solid red;
+}
+.left{
+    width: 100px;
+    height: 18px;
+    border: 1px solid black;
+}
+.right{
+    width: 100px;
+    height: 18px;
+    border: 1px solid grey;
 }

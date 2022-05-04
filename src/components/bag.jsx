@@ -52,7 +52,10 @@ const Bag=()=> {
         </div>
         <div className={styles.second_div}>
             <div className={styles.last1}>
-                <div className={styles.price}></div>
+                <div className={styles.price}>
+                    <div className={styles.left}>Item Subtotal</div>
+                    <div className={styles.right}>INR 15,260.00</div>
+                </div>
                 <div className={styles.estm}></div>
             </div>
             <div className={styles.last2}>
