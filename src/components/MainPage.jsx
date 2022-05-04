@@ -4,6 +4,108 @@ import styles from "./styles/MainPage.module.css";
 export default function MainPage() {
     return (
         <div className={styles.mainParent}>
+            <div className={styles.MainPageTop}>
+                <div
+                    style={{
+                        color: "white",
+                        width: "50%",
+                        height: "100%",
+                        padding: "0 100px",
+                        display: "flex",
+                        flexDirection: "column",
+                        textAlign: "center",
+                        justifyContent: "center",
+                    }}
+                >
+                    <h1 style={{ fontSize: 50, fontStyle: "italic" }}>
+                        Your Dress Destination
+                    </h1>
+                    <h4 style={{ marginTop: 20, fontSize: 22 }}>
+                        Find your perfect print, shade and silhouette for
+                        summer.
+                    </h4>
+                    <h5
+                        style={{
+                            marginTop: 20,
+                            textDecoration: "underline",
+                            fontSize: 18,
+                        }}
+                    >
+                        Shop new Dresses
+                    </h5>
+                </div>
+            </div>
+            <div className={styles.MainPage_SubTop}>
+                <div className={styles.SubTop_1}>
+                    <div>
+                        <h1 style={{ fontSize: 40 }}>Swim for every body</h1>
+                        <h3 style={{ fontSize: 20, fontWeight: 400 }}>
+                            In sizes XXS-3X and 0-24, plus long-torso styles
+                        </h3>
+                        <h4 style={{ textDecoration: "underline" }}>
+                            Find your fit
+                        </h4>
+                    </div>
+                </div>
+                <div className={styles.SubTop_2}>
+                    <div>
+                        <h3 style={{ fontSize: 20, fontWeight: 400 }}>
+                            Pant Spotlight
+                        </h3>
+                        <h1 style={{ fontSize: 40 }}>
+                            The Astrid wide-leg chino
+                        </h1>
+                        <h4 style={{ textDecoration: "underline" }}>
+                            Shop now
+                        </h4>
+                    </div>
+                </div>
+                <div className={styles.SubTop_3}>
+                    <div>
+                        <h1 style={{ fontSize: 40, fontWeight: 600 }}>
+                            The new must-haves for summer
+                        </h1>
+                        <h4 style={{ textDecoration: "underline" }}>
+                            Find your fit
+                        </h4>
+                    </div>
+                </div>
+                <div className={styles.SubTop_4}>
+                    <div>
+                        <h1 style={{ fontSize: 40 }}>The linen shop is open</h1>
+                        {/* <h3 style={{ fontSize: 20, fontWeight: 400 }}>
+                            In sizes XXS-3X and 0-24, plus long-torso styles
+                        </h3> */}
+                        <h4 style={{ textDecoration: "underline" }}>
+                            Lighten up
+                        </h4>
+                    </div>
+                </div>
+                <div className={styles.SubTop_5}>
+                    <div>
+                        <h1 style={{ fontSize: 40 }}>
+                            It's a busiest wedding season ever...
+                        </h1>
+                        {/* <h3 style={{ fontSize: 20, fontWeight: 400 }}>
+                            In sizes XXS-3X and 0-24, plus long-torso styles
+                        </h3> */}
+                        <h4 style={{ textDecoration: "underline" }}>
+                            Outfit every dress code
+                        </h4>
+                    </div>
+                </div>
+                <div className={styles.SubTop_6}>
+                    <div>
+                        <h3 style={{ fontSize: 20, fontWeight: 400 }}>
+                            Meet the
+                        </h3>
+                        <h1 style={{ fontSize: 40 }}>Cotton-linen beach sweater</h1>
+                        <h4 style={{ textDecoration: "underline" }}>
+                            Shop 5 shades
+                        </h4>
+                    </div>
+                </div>
+            </div>
             <div className={styles.mainPage_navigation}>
                 <div className={styles.navigationWrapper}>
                     <div className={styles.navivationTitle}>
@@ -148,37 +250,55 @@ export default function MainPage() {
                 </h2>
                 <div className={styles.aboveFooterImgWrap}>
                     <div className={styles.aboveFooterInner}>
-                        <img src="https://www.jcrew.com/s7-img-facade/BH290_BL8486_m?wid=416" alt="" />
+                        <img
+                            src="https://www.jcrew.com/s7-img-facade/BH290_BL8486_m?wid=416"
+                            alt=""
+                        />
                         <div>
                             <h5>Shop Women's Dresses & Jumpsuits</h5>
                         </div>
                     </div>
                     <div className={styles.aboveFooterInner}>
-                        <img src="https://www.jcrew.com/s7-img-facade/AY671_BK0001?wid=416" alt="" />
+                        <img
+                            src="https://www.jcrew.com/s7-img-facade/AY671_BK0001?wid=416"
+                            alt=""
+                        />
                         <div>
                             <h5>Shop Women's Shirts & Tops</h5>
                         </div>
                     </div>
                     <div className={styles.aboveFooterInner}>
-                        <img src="https://www.jcrew.com/s7-img-facade/BG652_SU8788_m?wid=416" alt="" />
+                        <img
+                            src="https://www.jcrew.com/s7-img-facade/BG652_SU8788_m?wid=416"
+                            alt=""
+                        />
                         <div>
                             <h5>Shop Women's Sweaters</h5>
                         </div>
                     </div>
                     <div className={styles.aboveFooterInner}>
-                        <img src="https://www.jcrew.com/s7-img-facade/AW770_OR5787_m?wid=416" alt="" />
+                        <img
+                            src="https://www.jcrew.com/s7-img-facade/AW770_OR5787_m?wid=416"
+                            alt=""
+                        />
                         <div>
                             <h5>Shop Women's The Tees Shop</h5>
                         </div>
                     </div>
                     <div className={styles.aboveFooterInner}>
-                        <img src="https://www.jcrew.com/s7-img-facade/BL371_BL8133_m?wid=416" alt="" />
+                        <img
+                            src="https://www.jcrew.com/s7-img-facade/BL371_BL8133_m?wid=416"
+                            alt=""
+                        />
                         <div>
                             <h5>Shop Women's Sweatshirts & Sweatpants</h5>
                         </div>
                     </div>
                     <div className={styles.aboveFooterInner}>
-                        <img src="https://www.jcrew.com/s7-img-facade/BC108_BL8133_m?wid=416" alt="" />
+                        <img
+                            src="https://www.jcrew.com/s7-img-facade/BC108_BL8133_m?wid=416"
+                            alt=""
+                        />
                         <div>
                             <h5>Shop Women's Swimwear</h5>
                         </div>
