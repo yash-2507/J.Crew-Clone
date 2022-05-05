@@ -12,7 +12,7 @@ import styles from "./styles/LoginModal.module.css";
 
 export default function LoginModal() {
     let user = JSON.parse(localStorage.getItem("users")) || [];
-    console.log("user: ", user);
+    // console.log("user: ", user);
     const { userMail, userPass, isLogin } = useSelector((store) => store.auth);
     const dispatch = useDispatch();
     let count = 0;
@@ -79,11 +79,11 @@ export default function LoginModal() {
                             console.log(user);
                             console.log(typeof user);
                             if (JSON.stringify(user) == "[]") {
-                                console.log("1");
+                                // console.log("1");
                                 dispatch(openSignUp());
                                 alert("Please do register first");
                             } else {
-                                console.log("dead");
+                                // console.log("dead");
                                 user.forEach((user) => {
                                     if (
                                         userMail == user.email &&
