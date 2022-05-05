@@ -12,10 +12,15 @@ const Bag=()=> {
                 </div>
                 <div className={styles.div13}>
                     <div className={styles.div131}>
-                        <a>ITEM</a>
+                        <div className={styles.itm}>ITEM</div>
+                        <div className={styles.prc}>PRICE</div>
+                        <div className={styles.qty}>QTY</div>
+                        
                     </div>
                     <div className={styles.div132}>
-                        <div className={styles.box1}></div>
+                        <div className={styles.box1}>
+                            <img src="https://www.jcrew.com/s7-img-facade/BF051_PK5748?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"></img>
+                        </div>
                         <div className={styles.box2}>
                             <div className={styles.bo1}>
                                 <h4>Girls' ankle-strap sandals</h4>
@@ -34,7 +39,7 @@ const Bag=()=> {
                         </div>
                         <div className={styles.box4}>
                             <button >-</button>
-                            <div><p></p></div>
+                            <div><p>2</p></div>
                             <button >+</button>
                         </div>
                     </div>
@@ -56,16 +61,24 @@ const Bag=()=> {
                     <div className={styles.left}>Item Subtotal</div>
                     <div className={styles.right}>INR 15,260.00</div>
                 </div>
-                <div className={styles.estm}></div>
+                <div className={styles.estm}>
+                    <div className={styles.left1}>
+                        <h4>Estimated Total</h4>
+                        <p>Shipping calculated in Checkout</p>
+                    </div>
+                    <div className={styles.right1}>INR 15,220.00</div>
+                </div>
             </div>
             <div className={styles.last2}>
                 <button>CHECK OUT NOW</button>
+                <div className={styles.para}>
                 <p>By clicking ‘Check Out Now’, you will be redirected to the eShopWorld checkout page where payment will be taken and your order fulfilled by eShopWorld, J.Crew's preferred partner for international sales.</p>
+            </div>
             </div>
             <div className={styles.last3}>
                 <h3>Add a promo</h3>
             <input type="number" placeholder='Promo'/>
-            <button>Apply</button>
+            <button>APPLY</button>
             </div>
         </div>
          
