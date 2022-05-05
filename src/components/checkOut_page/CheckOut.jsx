@@ -7,18 +7,11 @@ const CheckOut = () => {
   } 
 
   const handleClick = () => {
-    
+
   }
   return (
     <div className={styles.maxDiv}>
-      {/* NAVBAR
-          <div className={styles.navbar}>
-              <div>
-              <p>J.CREW</p>
-              <p>CHECKOUT</p>
-              </div>
-              
-          </div> */}
+   
       <div className={styles.container}>
         {/* center first div */}
         <div className={styles.centerFistDiv}>
@@ -29,7 +22,7 @@ const CheckOut = () => {
                 <input onChange={handleChange} type="checkbox" className={styles.checkbox_round} />
               </div>
               <div>
-                <p>STANDARD Delivery</p>
+                <p>STANDARD Delivery.</p>
                 <p>Delivered on or before 27 May</p>
               </div>
             </div>
