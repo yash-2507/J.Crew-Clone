@@ -35,7 +35,7 @@
     position: absolute;
     margin-left: 175px;
 }
-.modal_mid {
+.modal_body {
     height: 301px;
     padding: 30px 0;
     display: flex;
@@ -53,7 +53,7 @@
     color: gray;
 }
 .emailInput:focus {
-    border-color: rgb(228, 227, 227);
+    border-color: rgb(41, 41, 41);
 }
 .passInput {
     height: 42px;
@@ -65,9 +65,21 @@
     color: gray;
 }
 .passInput:focus {
-    border-color: rgb(228, 227, 227);
+    border-color: rgb(41, 41, 41);
 }
-.signInBtn {
+.selectInput {
+    height: 42px;
+    width: 100%;
+    padding: 0 15px;
+    outline: none;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: gray;
+}
+.selectInput:focus {
+    border-color: rgb(41, 41, 41);
+}
+.signUnBtn {
     height: 42px;
     width: 100%;
     background: #000;
@@ -85,9 +97,10 @@
     line-height: 16px;
     color: #767676;
     cursor: pointer;
+    margin-top: 15px;
 }
 .modal_bottom {
-    height: 70px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

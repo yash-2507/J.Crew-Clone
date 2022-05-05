@@ -1,8 +1,20 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+    openSignUp,
+    closeLogin,
+    openLogin,
+    auth,
+} from "../features/Login/LoginSlice";
+import { setUserMail, setUserPass } from "../features/Auth/AuthSlice";
 import { Cross, Info } from "./Icons";
 import styles from "./styles/LoginModal.module.css";
 
 export default function LoginModal() {
+    let user = JSON.parse(localStorage.getItem("users")) || [];
+    const { userMail, userPass, isLogin } = useSelector((store) => store.auth);
+    const dispatch = useDispatch();
+    let count = 0;
     return (
         <div className={styles.container}>
             <div className={styles.modal}>
@@ -16,11 +28,19 @@ export default function LoginModal() {
                         type="text"
                         placeholder="Email Address*"
                         className={styles.emailInput}
+                        onChange={(e) => {
+                            let mail = e.target.value;
+                            dispatch(setUserMail(mail));
+                        }}
                     />
                     <input
                         type="password"
                         placeholder="Password*"
                         className={styles.passInput}
+                        onChange={(e) => {
+                            let pass = e.target.value;
+                            dispatch(setUserPass(pass));
+                        }}
                     />
                     <div
                         style={{
@@ -51,7 +71,33 @@ export default function LoginModal() {
                             Forgot Password?
                         </span>
                     </div>
-                    <button type="button" className={styles.signInBtn}>
+                    <button
+                        type="button"
+                        className={styles.signInBtn}
+                        onClick={() => {
+                            if (user == []) {
+                                dispatch(openSignUp());
+                                alert("Please do register first");
+                            } else {
+                                user.forEach((user) => {
+                                    if (
+                                        userMail == user.email &&
+                                        userPass == user.password
+                                    ) {
+                                        count = 1;
+                                    }
+                                });
+                                if (count == 1) {
+                                    dispatch(closeLogin());
+                                    alert("Login Successful");
+                                    dispatch(auth());
+                                } else {
+                                    alert("Login Failed");
+                                    dispatch(openLogin());
+                                }
+                            }
+                        }}
+                    >
                         SIGN IN
                     </button>
                     <div className={styles.mid_footer}>
@@ -65,8 +111,9 @@ export default function LoginModal() {
                         style={{
                             color: "rgb(100, 92, 255)",
                             marginLeft: "20px",
-                            cursor: 'pointer'
+                            cursor: "pointer",
                         }}
+                        onClick={() => dispatch(openSignUp())}
                     >
                         Sign Up Now
                     </span>
