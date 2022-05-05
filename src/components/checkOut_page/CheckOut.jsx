@@ -22,7 +22,7 @@ const CheckOut = () => {
                 <input onChange={handleChange} type="checkbox" className={styles.checkbox_round} />
               </div>
               <div>
-                <p>STANDARD Delivery.</p>
+                <p>STANDARD Delivery</p>
                 <p>Delivered on or before 27 May</p>
               </div>
             </div>
