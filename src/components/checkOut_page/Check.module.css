@@ -35,30 +35,95 @@ body {
 }
 .sideDiv {
   grid-area: b;
-  height: 300px;
+  height: 365px;
   display: grid;
 }
-.sideDiv > div {
+.sideDiv > div > div:first-child{
   display: flex;
   text-align: center;
-  width: 250px;
+  width: 100%;
   height: 40px;
   align-items: center;
   border: 1px solid black;
   box-sizing: border-box;
   justify-content: center;
-  margin: auto;
   font-weight: 500;
+  
+}
+.sideDiv > div > p{
+  font-size: 15px;
+  font-weight: 500;
+}
+.sideDiv > div{
+  padding-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+.sideLstPay{
+  margin-top: -10px;
+  width: 100%;
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.sidelstTotal{
+  display: flex;
+  font-size: 14px;
+  margin-top: -15px;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 600;
+}
+.sideLstPay2{
+  margin-top: -15px;
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+}
+.sideDiv > div>.productDes{
+  height: 150px;
+  display: flex;
+  gap: 13px;
+}
+
+.sideDiv > div>.productDes>div>img{
+  margin-top: 5px;
+  width: 90px;
+  height: 100px;
+  justify-content: center;
+}
+.sideDiv > div>.productDes>div>p{
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.sideDiv > div>.productDes>div:last-child>p{
+  text-align: right;
 }
 .centerLastDiv {
   grid-area: d;
   width: 495px;
-  height: 100px;
+  height: 80px;
+  
+  
+}
+.centerLastDiv>p {
+  font-size: 22px;
+  
+text-align: center;
+margin-left: -300px;
+color: grey;
 }
 .centerSecDIv {
   grid-area: c;
   width: 495px;
-  height: 650px;
+  height: 890px;
   
 }
 .centerSecDIv > div>  p {
@@ -67,16 +132,17 @@ body {
 }
 
 
+
 .centerSecDIv>div{
 
-  height: 600px;
+  height: 800px;
   width: 80%;
   margin: auto;
 }
 
 
 .centerSecDIv>div>.addressBar>input{
-  height: 35px;
+  height: 40px;
   padding-left: 10px;
   font-size: 13px;
   width: 50%;
@@ -92,7 +158,7 @@ body {
 }
 
 .centerSecDIv>div>input{
-  height: 37px;
+  height: 40px;
   padding-left: 10px;
   font-size: 13px;
   width: 380px;
@@ -176,14 +242,67 @@ body {
 
 .selectTagCountry{
   width: 100px;
-  height : 35px;
+  height : 45px;
 }
+
 .selectTagCountry+input{
-  height : 30px;
+  height : 40px;
   width: 280px;
   padding-left: 10px;
 }
 
 .perChase_Checkbox+div{
   margin-top: 20px;
+}
+
+
+.poweredBy{
+  
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.poweredBy>div>p{
+  font-size: 14px;
+
+}
+.poweredBy>div>p:last-child{
+  margin-top: -6px;
+  font-size: 12px;
+}
+.checkbox_privacy{
+  margin-top: 10px;
+  height: 100px;
+  border: 2px solid rgb(212, 198, 198);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+.checkbox_privacy>input{
+  margin-top: -20px;
+  height: 20px;
+  width: 40px;
+}
+
+.checkbox_privacy>p{
+  font-size:14px;
+  word-spacing: 2px;
+}
+.paymentButton{
+ 
+  width: 100%;
+  margin: auto;
+  margin-top: 12px;
+  text-align: center;
+  background-color:
+  #0161ff;
+  color: white;
+  height: 43px;
+  padding-top: 13px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
 }

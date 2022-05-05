@@ -1,6 +1,14 @@
 import React from "react";
 import styles from "./Check.module.css";
 const CheckOut = () => {
+
+  const handleChange = (e) => {
+    
+  } 
+
+  const handleClick = () => {
+    
+  }
   return (
     <div className={styles.maxDiv}>
       {/* NAVBAR
@@ -18,7 +26,7 @@ const CheckOut = () => {
           <div className={styles.deliveryMethod}>
             <div>
               <div>
-                <input type="checkbox" className={styles.checkbox_round} />
+                <input onChange={handleChange} type="checkbox" className={styles.checkbox_round} />
               </div>
               <div>
                 <p>STANDARD Delivery</p>
@@ -28,7 +36,7 @@ const CheckOut = () => {
             <div className={styles.inrtwo}>INR 1,710.00</div>
             <div>
               <div>
-                <input type="checkbox" className={styles.checkbox_round} />
+                <input onChange={handleChange} type="checkbox" className={styles.checkbox_round} />
               </div>
 
               <div>
@@ -41,11 +49,42 @@ const CheckOut = () => {
         </div>
         {/* center second div */}
         <div className={styles.sideDiv}>
+          <div>
           <div>BACK TO CART</div>
           <p>Kids' half-zip rash guard with UPF 50+</p>
-          <div></div>
-          <hr />
-          <div></div>
+          <div className={styles.productDes}>
+            <div>
+              <img src="https://www.jcrew.com/s7-img-facade/BH167_WY9090?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408" alt="" />
+            </div>
+            <div>
+              <p>Item:</p>
+              <p>Quantity:</p>
+              <p>Color:</p>
+              <p>Size:</p>
+              <p>Price:</p>
+            </div>
+            <div>
+              <p>BH167</p>
+              <p>1</p>
+              <p>NAVY</p>
+              <p>SMALL</p>
+              <p>INR 7,035.00</p>
+            </div>
+          </div>
+          <hr style={{width: "100%"}}/>
+          <div className={styles.sideLstPay}>
+            <p>Items</p>
+            <p>INR 7.035.00</p>
+          </div>
+          <div className={styles.sideLstPay2}>
+            <p>Delivery</p>
+            <p>INR 1,710.00</p>
+          </div>
+          <div className={styles.sidelstTotal}>
+            <p>TOTAL</p>
+            <p>INR 8,745.00</p>
+          </div>
+          </div>
         </div>
 
         {/* Center Main Part div */}
@@ -55,40 +94,38 @@ const CheckOut = () => {
             <p>Delivery Address</p>
 
             <div className={styles.addressBar}>
-              <input type="text" placeholder="*enter first name" />
+              <input onChange={handleChange} type="text" placeholder="*enter first name" />
 
-              <input type="text" placeholder="*enter last name" />
+              <input onChange={handleChange} type="text" placeholder="*enter last name" />
             </div>
             <br />
-            <input type="text" placeholder="*enter country name" />
+            <input onChange={handleChange} type="text" placeholder="*enter country name" />
             <br />
             <input
-              className={styles.addressIn}
+onChange={handleChange}               className={styles.addressIn}
               type="text"
               placeholder="*enter Address Line 1"
             />
             <br />
             <input
-              className={styles.addressIn}
+onChange={handleChange}               className={styles.addressIn}
               type="text"
               placeholder="*enter Address Line 2"
             />
             <div className={styles.addressBar}>
-              <input type="text" placeholder="*Postal Code" />
+              <input onChange={handleChange} type="text" placeholder="*Postal Code" />
 
-              <input type="text" placeholder="*City" />
+              <input onChange={handleChange} type="text" placeholder="*City" />
             </div>
             <br />
             <div className={styles.perChase_Checkbox}>
-              <input type="checkbox" />
+              <input onChange={handleChange} type="checkbox" />
               <label>Save this address for my next purchase</label>
             </div>
 
             <div>
               <select className={styles.selectTagCountry}>
-                <option value="  " selected>
-                 
-                </option>
+                <option value="  " selected></option>
                 <option value="--">Not Specified</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AL">Albania</option>
@@ -338,11 +375,42 @@ const CheckOut = () => {
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
               </select>
-              <input type="text" placeholder="81234 56789"/>
+              <input onChange={handleChange} type="text" placeholder="81234 56789" />
+            </div>
+            <br />
+            <input onChange={handleChange} type="text" placeholder="*entar Email Address" />
+            <div className={styles.poweredBy}>
+              <div>
+                <img
+                  src="https://international.jcrew.com/assets/images/common/carbon_neutral.svg"
+                  alt=""
+                />
+              </div>
+              <div onClick={handleClick}>
+                <p>Your order is 100% Carbon Neutral</p>
+                <p>
+                  Powered by <b>ESW</b>
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.checkbox_privacy}>
+              <input onChange={handleChange} type="checkbox" />
+
+              <p>
+                I have read and consent to eShopWorld processing my information
+                in accordance with the  <a href="">Privacy Statement</a> and   <a href="">Cookie Policy.</a>
+              </p>
+            </div>
+             <br />
+            <div className={styles.paymentButton}>
+              CONTINUE TO PAYMENT
             </div>
           </div>
         </div>
-        <div className={styles.centerLastDiv}></div>
+        <div className={styles.centerLastDiv}>
+          <p> Payment</p>
+        </div>
       </div>
     </div>
   );
