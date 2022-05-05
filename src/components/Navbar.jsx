@@ -2,8 +2,11 @@ import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import styles from "./styles/Navbar.module.css";
 import { HeartIcon, MainLogo } from "./SvgIcons";
+import { useDispatch } from "react-redux";
+import { openLogin } from "../features/Login/LoginSlice";
 
 export default function Navbar() {
+    const dispatch = useDispatch();
     <Routes>
         <Route path="/" element></Route>
         <Route path="/men" element></Route>
@@ -71,7 +74,12 @@ export default function Navbar() {
                         style={{ height: 36, width: 180 }}
                     ></input>
                 </div>
-                <div className={styles.nav_logIN}>Sign In</div>
+                <div
+                    className={styles.nav_logIN}
+                    onClick={() => dispatch(openLogin())}
+                >
+                    Sign In
+                </div>
                 <div className={styles.nav_icons}>
                     <HeartIcon />
                 </div>
