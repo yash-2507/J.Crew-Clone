@@ -9,9 +9,9 @@ import { store } from "./Store";
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
-    <BrowserRouter>
-        <Provider store={store}>
+    <Provider store={store}>
+        <BrowserRouter>
             <App />
-        </Provider>
-    </BrowserRouter>
+        </BrowserRouter>
+    </Provider>
 );

@@ -5,23 +5,14 @@ import { HeartIcon, MainLogo } from "./SvgIcons";
 import { useDispatch, useSelector } from "react-redux";
 import { openLogin } from "../features/Login/LoginSlice";
 import { User } from "./Icons";
+import Index from "../Pages/Index";
 import Mens from "../Pages/Mens";
-import App from "../App";
+import Women from "../Pages/Women";
+import Kids from "../Pages/Kids";
 
 export default function Navbar() {
     const { isLogin } = useSelector((store) => store.login);
     const dispatch = useDispatch();
-    <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="/mens" element={<Mens />}></Route>
-        <Route path="/women" element></Route>
-        <Route path="/kids" element></Route>
-        <Route path="/swim" element></Route>
-        <Route path="/chasmere" element></Route>
-        <Route path="/home" element></Route>
-        <Route path="/stories" element></Route>
-        <Route path="/sale" element></Route>
-    </Routes>;
     return (
         <div className={styles.nav_parent}>
             <div className={styles.nav_logo}>
