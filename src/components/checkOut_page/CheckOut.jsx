@@ -1,17 +1,11 @@
 import React from "react";
 import styles from "./Check.module.css";
 const CheckOut = () => {
+  const handleChange = (e) => {};
 
-  const handleChange = (e) => {
-    
-  } 
-
-  const handleClick = () => {
-
-  }
+  const handleClick = () => {};
   return (
     <div className={styles.maxDiv}>
-   
       <div className={styles.container}>
         {/* center first div */}
         <div className={styles.centerFistDiv}>
@@ -19,7 +13,11 @@ const CheckOut = () => {
           <div className={styles.deliveryMethod}>
             <div>
               <div>
-                <input onChange={handleChange} type="checkbox" className={styles.checkbox_round} />
+                <input
+                  onChange={handleChange}
+                  type="checkbox"
+                  className={styles.checkbox_round}
+                />
               </div>
               <div>
                 <p>STANDARD Delivery</p>
@@ -29,7 +27,11 @@ const CheckOut = () => {
             <div className={styles.inrtwo}>INR 1,710.00</div>
             <div>
               <div>
-                <input onChange={handleChange} type="checkbox" className={styles.checkbox_round} />
+                <input
+                  onChange={handleChange}
+                  type="checkbox"
+                  className={styles.checkbox_round}
+                />
               </div>
 
               <div>
@@ -43,40 +45,43 @@ const CheckOut = () => {
         {/* center second div */}
         <div className={styles.sideDiv}>
           <div>
-          <div>BACK TO CART</div>
-          <p>Kids' half-zip rash guard with UPF 50+</p>
-          <div className={styles.productDes}>
-            <div>
-              <img src="https://www.jcrew.com/s7-img-facade/BH167_WY9090?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408" alt="" />
+            <div>BACK TO CART</div>
+            <p>Kids' half-zip rash guard with UPF 50+</p>
+            <div className={styles.productDes}>
+              <div>
+                <img
+                  src="https://www.jcrew.com/s7-img-facade/BH167_WY9090?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p>Item:</p>
+                <p>Quantity:</p>
+                <p>Color:</p>
+                <p>Size:</p>
+                <p>Price:</p>
+              </div>
+              <div>
+                <p>BH167</p>
+                <p>1</p>
+                <p>NAVY</p>
+                <p>SMALL</p>
+                <p>INR 7,035.00</p>
+              </div>
             </div>
-            <div>
-              <p>Item:</p>
-              <p>Quantity:</p>
-              <p>Color:</p>
-              <p>Size:</p>
-              <p>Price:</p>
+            <hr style={{ width: "100%" }} />
+            <div className={styles.sideLstPay}>
+              <p>Items</p>
+              <p>INR 7.035.00</p>
             </div>
-            <div>
-              <p>BH167</p>
-              <p>1</p>
-              <p>NAVY</p>
-              <p>SMALL</p>
-              <p>INR 7,035.00</p>
+            <div className={styles.sideLstPay2}>
+              <p>Delivery</p>
+              <p>INR 1,710.00</p>
             </div>
-          </div>
-          <hr style={{width: "100%"}}/>
-          <div className={styles.sideLstPay}>
-            <p>Items</p>
-            <p>INR 7.035.00</p>
-          </div>
-          <div className={styles.sideLstPay2}>
-            <p>Delivery</p>
-            <p>INR 1,710.00</p>
-          </div>
-          <div className={styles.sidelstTotal}>
-            <p>TOTAL</p>
-            <p>INR 8,745.00</p>
-          </div>
+            <div className={styles.sidelstTotal}>
+              <p>TOTAL</p>
+              <p>INR 8,745.00</p>
+            </div>
           </div>
         </div>
 
@@ -87,26 +92,44 @@ const CheckOut = () => {
             <p>Delivery Address</p>
 
             <div className={styles.addressBar}>
-              <input onChange={handleChange} type="text" placeholder="*enter first name" />
+              <input
+                onChange={handleChange}
+                type="text"
+                placeholder="*enter first name"
+              />
 
-              <input onChange={handleChange} type="text" placeholder="*enter last name" />
+              <input
+                onChange={handleChange}
+                type="text"
+                placeholder="*enter last name"
+              />
             </div>
             <br />
-            <input onChange={handleChange} type="text" placeholder="*enter country name" />
+            <input
+              onChange={handleChange}
+              type="text"
+              placeholder="*enter country name"
+            />
             <br />
             <input
-onChange={handleChange}               className={styles.addressIn}
+              onChange={handleChange}
+              className={styles.addressIn}
               type="text"
               placeholder="*enter Address Line 1"
             />
             <br />
             <input
-onChange={handleChange}               className={styles.addressIn}
+              onChange={handleChange}
+              className={styles.addressIn}
               type="text"
               placeholder="*enter Address Line 2"
             />
             <div className={styles.addressBar}>
-              <input onChange={handleChange} type="text" placeholder="*Postal Code" />
+              <input
+                onChange={handleChange}
+                type="text"
+                placeholder="*Postal Code"
+              />
 
               <input onChange={handleChange} type="text" placeholder="*City" />
             </div>
@@ -368,10 +391,18 @@ onChange={handleChange}               className={styles.addressIn}
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
               </select>
-              <input onChange={handleChange} type="text" placeholder="81234 56789" />
+              <input
+                onChange={handleChange}
+                type="text"
+                placeholder="81234 56789"
+              />
             </div>
             <br />
-            <input onChange={handleChange} type="text" placeholder="*entar Email Address" />
+            <input
+              onChange={handleChange}
+              type="text"
+              placeholder="*entar Email Address"
+            />
             <div className={styles.poweredBy}>
               <div>
                 <img
@@ -392,13 +423,12 @@ onChange={handleChange}               className={styles.addressIn}
 
               <p>
                 I have read and consent to eShopWorld processing my information
-                in accordance with the  <a href="">Privacy Statement</a> and   <a href="">Cookie Policy.</a>
+                in accordance with the <a href="">Privacy Statement</a> and{" "}
+                <a href="">Cookie Policy.</a>
               </p>
             </div>
-             <br />
-            <div className={styles.paymentButton}>
-              CONTINUE TO PAYMENT
-            </div>
+            <br />
+            <div className={styles.paymentButton}>CONTINUE TO PAYMENT</div>
           </div>
         </div>
         <div className={styles.centerLastDiv}>
