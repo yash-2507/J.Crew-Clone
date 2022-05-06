@@ -1,0 +1,3105 @@
+{
+  "_v": "21.10",
+  "_type": "product_result",
+  "count": 6,
+  "data": [
+    {
+      "_type": "product",
+      "brand": "J.Crew",
+      "currency": "INR",
+      "ean": "99106655333",
+      "id": "99106655333",
+      "inventory": {
+        "_type": "inventory",
+        "ats": 18,
+        "backorderable": false,
+        "id": "inventory_jcrew_US",
+        "in_stock_date": "2022-05-03T00:00:00.000Z",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 18
+      },
+      "long_description": "The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.",
+      "master": {
+        "_type": "master",
+        "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600?country-code=IN",
+        "master_id": "BH600",
+        "orderable": true
+      },
+      "min_order_quantity": 1,
+      "name": "Indian madras shirt in cotton",
+      "short_description": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "step_quantity": 1,
+      "type": { "_type": "product_type", "variant": true },
+      "unit_measure": "",
+      "unit_quantity": 0,
+      "upc": "BH600YD1079XS",
+      "valid_from": {
+        "default@Factory_US": "2022-04-05T05:00:00.000Z",
+        "default@Jcrew_US": "2022-04-05T05:00:00.000Z"
+      },
+      "variants": [
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655333?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655333",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655334?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655334",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655328?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655328",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655325?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655325",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655332?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655332",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655345?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655345",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655335?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655335",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655343?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655343",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655331?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655331",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655327?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655327",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655339?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655339",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655326?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655326",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655324?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655324",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655341?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655341",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655338?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655338",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655347?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655347",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655321?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655321",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655329?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655329",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655322?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655322",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655336?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655336",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655340?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655340",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655348?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655348",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655346?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655346",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655342?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655342",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        }
+      ],
+      "variation_attributes": [
+        {
+          "_type": "variation_attribute",
+          "id": "color",
+          "name": "Color",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "KERBER MADRAS PINK PURP",
+              "orderable": true,
+              "value": "YD1074"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d3,_d4,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "FREEMAN PATCHWORK MADRA",
+              "orderable": true,
+              "value": "YD1079"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "JIMMY MADRAS GREEN BURG",
+              "orderable": true,
+              "value": "YD1081"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "YORKVILLE BLEEDER MADRA",
+              "orderable": true,
+              "value": "YD1230"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "size",
+          "name": "Size",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "00400",
+              "name": "X-SMALL",
+              "orderable": true,
+              "value": "XS"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00600",
+              "name": "SMALL",
+              "orderable": true,
+              "value": "S"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00800",
+              "name": "MEDIUM",
+              "orderable": true,
+              "value": "M"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01000",
+              "name": "LARGE",
+              "orderable": true,
+              "value": "L"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01200",
+              "name": "X-LARGE",
+              "orderable": true,
+              "value": "XL"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "02000",
+              "name": "XX-LARGE",
+              "orderable": true,
+              "value": "XXL"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "productSizingName",
+          "name": "Fit Type",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "BH600||default||||||<ul><li>Regular fit.</li></ul>",
+              "name": "Classic",
+              "orderable": true,
+              "value": "Classic"
+            }
+          ]
+        }
+      ],
+      "variation_groups": [
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1074?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1074",
+          "variation_values": { "color": "YD1074" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1079?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1079",
+          "variation_values": { "color": "YD1079" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1081?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1081",
+          "variation_values": { "color": "YD1081" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1230?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1230",
+          "variation_values": { "color": "YD1230" }
+        }
+      ],
+      "variation_values": {
+        "color": "YD1079",
+        "size": "XS",
+        "productSizingName": "Classic"
+      },
+      "c_ProductSearchBoost": "4",
+      "c_SAPClass": "AA2A3S0",
+      "c_SAPDepartment": "AA2A3",
+      "c_SAPDepartmentDescription": "M WOVEN SHIRTS",
+      "c_SAPSubClass": "AA2A3S0I3",
+      "c_allowedCountries": ["ALL"],
+      "c_availableDate": "2022-04-26",
+      "c_categories": [
+        "mens~categories~clothing~shirts",
+        "mens~categories~clothing~shirts~madras",
+        "mens~features~new-arrivals"
+      ],
+      "c_color": "YD1079",
+      "c_color-value": "FREEMAN PATCHWORK MADRA",
+      "c_colorFamily": "OTHER",
+      "c_colorShotTypeMap": "{\"classicProductCode\":\"BH600\",\"colorShotTypes\":{\"YD1074\":\"_d7\",\"YD1079\":\"_m,_d1,_d2,_d3,_d4,_d7\",\"YD1081\":\"_m,_d1,_d2,_d7\",\"YD1230\":\"_d7\"}}",
+      "c_defaultCategoryId": "mens~categories~clothing~shirts~madras",
+      "c_defaultColorCode": "YD1230",
+      "c_discountPercentageCAD": 0.0,
+      "c_discountPercentageEUR": 0.0,
+      "c_discountPercentageGBP": 0.0,
+      "c_discountPercentageHKD": 0.0,
+      "c_discountPercentageUSD": 0.0,
+      "c_displayLaydownImages": false,
+      "c_displayOn": [
+        "standard_usd",
+        "search_usd",
+        "standard_cad",
+        "search_cad",
+        "standard_gbp",
+        "search_gbp",
+        "standard_hkd",
+        "search_hkd",
+        "standard_eur",
+        "search_eur",
+        "standard_intl",
+        "search_intl"
+      ],
+      "c_exclude_ship_to_store": false,
+      "c_hasOnfig": true,
+      "c_isBoxable": true,
+      "c_isFinalSale": false,
+      "c_isFreeShipping": false,
+      "c_isMarkdownUs": false,
+      "c_isMarketplace": false,
+      "c_isMultiSell": false,
+      "c_isPlusSize": false,
+      "c_isSale": false,
+      "c_isSaleSkuUs": false,
+      "c_lilyColor": ["Multicolor"],
+      "c_lilyDressingStyle": ["Classic"],
+      "c_lilyFabricContent": ["Cotton", "Hemp"],
+      "c_lilyFit": ["Relaxed"],
+      "c_lilyNeckStyle": ["Collared", "High Neck"],
+      "c_lilyOccasion": ["Business Casual"],
+      "c_lilyPatternPrints": ["Plaid"],
+      "c_lilySleeveLength": ["Long Sleeve"],
+      "c_lilyStyle": ["Button Down"],
+      "c_longDescriptionFit": "<ul><li>Regular fit.</li></ul>",
+      "c_longDescriptionTech": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "c_masterColor": "Other",
+      "c_masterSize": "X-SMALL",
+      "c_onlineExclusive": false,
+      "c_parentProductId": "BH600",
+      "c_priceTypeUs": "full",
+      "c_primarySizeChart": "0,0",
+      "c_productGender": "Men",
+      "c_productSizingName": "Classic",
+      "c_searchKeywordsLily": "Multicolor,Classic,Cotton,Hemp,Relaxed,Collared,High Neck,Business Casual,Plaid,Long Sleeve,Button Down",
+      "c_shotType": ["_d7"],
+      "c_size": "XS",
+      "c_sizeSortId": "00400",
+      "c_skuShotType": "_d1",
+      "c_styleEco": ["Sustainable"],
+      "c_swatchOrderAlphabetical": false,
+      "c_trendingBadges": ["newColor", "newLast2Weeks", "newLast4Weeks"],
+      "c_size-value": "X-SMALL",
+      "c_listPrice": 12566.0,
+      "c_imageURL": "https://www.jcrew.com/s7-img-facade/BH600_YD1079?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+    },
+    {
+      "_type": "product",
+      "brand": "J.Crew",
+      "currency": "INR",
+      "ean": "99106655334",
+      "id": "99106655334",
+      "inventory": {
+        "_type": "inventory",
+        "ats": 21,
+        "backorderable": false,
+        "id": "inventory_jcrew_US",
+        "in_stock_date": "2022-05-03T00:00:00.000Z",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 21
+      },
+      "long_description": "The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.",
+      "master": {
+        "_type": "master",
+        "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600?country-code=IN",
+        "master_id": "BH600",
+        "orderable": true
+      },
+      "min_order_quantity": 1,
+      "name": "Indian madras shirt in cotton",
+      "short_description": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "step_quantity": 1,
+      "type": { "_type": "product_type", "variant": true },
+      "unit_measure": "",
+      "unit_quantity": 0,
+      "upc": "BH600YD1079XXL",
+      "valid_from": {
+        "default@Factory_US": "2022-04-05T05:00:00.000Z",
+        "default@Jcrew_US": "2022-04-05T05:00:00.000Z"
+      },
+      "variants": [
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655333?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655333",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655334?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655334",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655328?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655328",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655325?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655325",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655332?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655332",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655345?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655345",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655335?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655335",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655343?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655343",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655331?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655331",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655327?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655327",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655339?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655339",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655326?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655326",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655324?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655324",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655341?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655341",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655338?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655338",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655347?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655347",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655321?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655321",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655329?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655329",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655322?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655322",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655336?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655336",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655340?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655340",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655348?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655348",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655346?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655346",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655342?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655342",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        }
+      ],
+      "variation_attributes": [
+        {
+          "_type": "variation_attribute",
+          "id": "color",
+          "name": "Color",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "KERBER MADRAS PINK PURP",
+              "orderable": true,
+              "value": "YD1074"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d3,_d4,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "FREEMAN PATCHWORK MADRA",
+              "orderable": true,
+              "value": "YD1079"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "JIMMY MADRAS GREEN BURG",
+              "orderable": true,
+              "value": "YD1081"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "YORKVILLE BLEEDER MADRA",
+              "orderable": true,
+              "value": "YD1230"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "size",
+          "name": "Size",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "00400",
+              "name": "X-SMALL",
+              "orderable": true,
+              "value": "XS"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00600",
+              "name": "SMALL",
+              "orderable": true,
+              "value": "S"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00800",
+              "name": "MEDIUM",
+              "orderable": true,
+              "value": "M"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01000",
+              "name": "LARGE",
+              "orderable": true,
+              "value": "L"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01200",
+              "name": "X-LARGE",
+              "orderable": true,
+              "value": "XL"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "02000",
+              "name": "XX-LARGE",
+              "orderable": true,
+              "value": "XXL"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "productSizingName",
+          "name": "Fit Type",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "BH600||default||||||<ul><li>Regular fit.</li></ul>",
+              "name": "Classic",
+              "orderable": true,
+              "value": "Classic"
+            }
+          ]
+        }
+      ],
+      "variation_groups": [
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1074?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1074",
+          "variation_values": { "color": "YD1074" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1079?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1079",
+          "variation_values": { "color": "YD1079" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1081?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1081",
+          "variation_values": { "color": "YD1081" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1230?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1230",
+          "variation_values": { "color": "YD1230" }
+        }
+      ],
+      "variation_values": {
+        "color": "YD1079",
+        "size": "XXL",
+        "productSizingName": "Classic"
+      },
+      "c_ProductSearchBoost": "4",
+      "c_SAPClass": "AA2A3S0",
+      "c_SAPDepartment": "AA2A3",
+      "c_SAPDepartmentDescription": "M WOVEN SHIRTS",
+      "c_SAPSubClass": "AA2A3S0I3",
+      "c_allowedCountries": ["ALL"],
+      "c_availableDate": "2022-04-26",
+      "c_categories": [
+        "mens~categories~clothing~shirts",
+        "mens~categories~clothing~shirts~madras",
+        "mens~features~new-arrivals"
+      ],
+      "c_color": "YD1079",
+      "c_color-value": "FREEMAN PATCHWORK MADRA",
+      "c_colorFamily": "OTHER",
+      "c_colorShotTypeMap": "{\"classicProductCode\":\"BH600\",\"colorShotTypes\":{\"YD1074\":\"_d7\",\"YD1079\":\"_m,_d1,_d2,_d3,_d4,_d7\",\"YD1081\":\"_m,_d1,_d2,_d7\",\"YD1230\":\"_d7\"}}",
+      "c_cprSearchKeywords": "plus size",
+      "c_defaultCategoryId": "mens~categories~clothing~shirts~madras",
+      "c_defaultColorCode": "YD1230",
+      "c_discountPercentageCAD": 0.0,
+      "c_discountPercentageEUR": 0.0,
+      "c_discountPercentageGBP": 0.0,
+      "c_discountPercentageHKD": 0.0,
+      "c_discountPercentageUSD": 0.0,
+      "c_displayLaydownImages": false,
+      "c_displayOn": [
+        "standard_usd",
+        "search_usd",
+        "standard_cad",
+        "search_cad",
+        "standard_gbp",
+        "search_gbp",
+        "standard_hkd",
+        "search_hkd",
+        "standard_eur",
+        "search_eur",
+        "standard_intl",
+        "search_intl"
+      ],
+      "c_exclude_ship_to_store": false,
+      "c_hasOnfig": true,
+      "c_isBoxable": true,
+      "c_isFinalSale": false,
+      "c_isFreeShipping": false,
+      "c_isMarkdownUs": false,
+      "c_isMarketplace": false,
+      "c_isMultiSell": false,
+      "c_isPlusSize": true,
+      "c_isSale": false,
+      "c_isSaleSkuUs": false,
+      "c_lilyColor": ["Multicolor"],
+      "c_lilyDressingStyle": ["Classic"],
+      "c_lilyFabricContent": ["Cotton", "Hemp"],
+      "c_lilyFit": ["Relaxed"],
+      "c_lilyNeckStyle": ["Collared", "High Neck"],
+      "c_lilyOccasion": ["Business Casual"],
+      "c_lilyPatternPrints": ["Plaid"],
+      "c_lilySleeveLength": ["Long Sleeve"],
+      "c_lilyStyle": ["Button Down"],
+      "c_longDescriptionFit": "<ul><li>Regular fit.</li></ul>",
+      "c_longDescriptionTech": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "c_masterColor": "Other",
+      "c_masterSize": "XX-LARGE",
+      "c_onlineExclusive": false,
+      "c_parentProductId": "BH600",
+      "c_priceTypeUs": "full",
+      "c_primarySizeChart": "0,0",
+      "c_productGender": "Men",
+      "c_productSizingName": "Classic",
+      "c_searchKeywordsLily": "Multicolor,Classic,Cotton,Hemp,Relaxed,Collared,High Neck,Business Casual,Plaid,Long Sleeve,Button Down",
+      "c_shotType": ["_d7"],
+      "c_size": "XXL",
+      "c_sizeSortId": "02000",
+      "c_skuShotType": "_d1",
+      "c_styleEco": ["Sustainable"],
+      "c_swatchOrderAlphabetical": false,
+      "c_trendingBadges": ["newColor", "newLast2Weeks", "newLast4Weeks"],
+      "c_size-value": "XX-LARGE",
+      "c_listPrice": 12566.0,
+      "c_imageURL": "https://www.jcrew.com/s7-img-facade/BH600_YD1079?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+    },
+    {
+      "_type": "product",
+      "brand": "J.Crew",
+      "currency": "INR",
+      "ean": "99106655328",
+      "id": "99106655328",
+      "inventory": {
+        "_type": "inventory",
+        "ats": 387,
+        "backorderable": false,
+        "id": "inventory_jcrew_US",
+        "in_stock_date": "2022-05-03T00:00:00.000Z",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 387
+      },
+      "long_description": "The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.",
+      "master": {
+        "_type": "master",
+        "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600?country-code=IN",
+        "master_id": "BH600",
+        "orderable": true
+      },
+      "min_order_quantity": 1,
+      "name": "Indian madras shirt in cotton",
+      "short_description": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "step_quantity": 1,
+      "type": { "_type": "product_type", "variant": true },
+      "unit_measure": "",
+      "unit_quantity": 0,
+      "upc": "BH600YD1079L",
+      "valid_from": {
+        "default@Factory_US": "2022-04-05T05:00:00.000Z",
+        "default@Jcrew_US": "2022-04-05T05:00:00.000Z"
+      },
+      "variants": [
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655333?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655333",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655334?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655334",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655328?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655328",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655325?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655325",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655332?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655332",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655345?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655345",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655335?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655335",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655343?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655343",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655331?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655331",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655327?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655327",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655339?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655339",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655326?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655326",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655324?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655324",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655341?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655341",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655338?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655338",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655347?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655347",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655321?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655321",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655329?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655329",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655322?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655322",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655336?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655336",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655340?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655340",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655348?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655348",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655346?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655346",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655342?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655342",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        }
+      ],
+      "variation_attributes": [
+        {
+          "_type": "variation_attribute",
+          "id": "color",
+          "name": "Color",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "KERBER MADRAS PINK PURP",
+              "orderable": true,
+              "value": "YD1074"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d3,_d4,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "FREEMAN PATCHWORK MADRA",
+              "orderable": true,
+              "value": "YD1079"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "JIMMY MADRAS GREEN BURG",
+              "orderable": true,
+              "value": "YD1081"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "YORKVILLE BLEEDER MADRA",
+              "orderable": true,
+              "value": "YD1230"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "size",
+          "name": "Size",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "00400",
+              "name": "X-SMALL",
+              "orderable": true,
+              "value": "XS"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00600",
+              "name": "SMALL",
+              "orderable": true,
+              "value": "S"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00800",
+              "name": "MEDIUM",
+              "orderable": true,
+              "value": "M"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01000",
+              "name": "LARGE",
+              "orderable": true,
+              "value": "L"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01200",
+              "name": "X-LARGE",
+              "orderable": true,
+              "value": "XL"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "02000",
+              "name": "XX-LARGE",
+              "orderable": true,
+              "value": "XXL"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "productSizingName",
+          "name": "Fit Type",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "BH600||default||||||<ul><li>Regular fit.</li></ul>",
+              "name": "Classic",
+              "orderable": true,
+              "value": "Classic"
+            }
+          ]
+        }
+      ],
+      "variation_groups": [
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1074?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1074",
+          "variation_values": { "color": "YD1074" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1079?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1079",
+          "variation_values": { "color": "YD1079" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1081?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1081",
+          "variation_values": { "color": "YD1081" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1230?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1230",
+          "variation_values": { "color": "YD1230" }
+        }
+      ],
+      "variation_values": {
+        "color": "YD1079",
+        "size": "L",
+        "productSizingName": "Classic"
+      },
+      "c_ProductSearchBoost": "4",
+      "c_SAPClass": "AA2A3S0",
+      "c_SAPDepartment": "AA2A3",
+      "c_SAPDepartmentDescription": "M WOVEN SHIRTS",
+      "c_SAPSubClass": "AA2A3S0I3",
+      "c_allowedCountries": ["ALL"],
+      "c_availableDate": "2022-04-26",
+      "c_categories": [
+        "mens~categories~clothing~shirts",
+        "mens~categories~clothing~shirts~madras",
+        "mens~features~new-arrivals"
+      ],
+      "c_color": "YD1079",
+      "c_color-value": "FREEMAN PATCHWORK MADRA",
+      "c_colorFamily": "OTHER",
+      "c_colorShotTypeMap": "{\"classicProductCode\":\"BH600\",\"colorShotTypes\":{\"YD1074\":\"_d7\",\"YD1079\":\"_m,_d1,_d2,_d3,_d4,_d7\",\"YD1081\":\"_m,_d1,_d2,_d7\",\"YD1230\":\"_d7\"}}",
+      "c_defaultCategoryId": "mens~categories~clothing~shirts~madras",
+      "c_defaultColorCode": "YD1230",
+      "c_discountPercentageCAD": 0.0,
+      "c_discountPercentageEUR": 0.0,
+      "c_discountPercentageGBP": 0.0,
+      "c_discountPercentageHKD": 0.0,
+      "c_discountPercentageUSD": 0.0,
+      "c_displayLaydownImages": false,
+      "c_displayOn": [
+        "standard_usd",
+        "search_usd",
+        "standard_cad",
+        "search_cad",
+        "standard_gbp",
+        "search_gbp",
+        "standard_hkd",
+        "search_hkd",
+        "standard_eur",
+        "search_eur",
+        "standard_intl",
+        "search_intl"
+      ],
+      "c_exclude_ship_to_store": false,
+      "c_hasOnfig": true,
+      "c_isBoxable": true,
+      "c_isFinalSale": false,
+      "c_isFreeShipping": false,
+      "c_isMarkdownUs": false,
+      "c_isMarketplace": false,
+      "c_isMultiSell": false,
+      "c_isPlusSize": false,
+      "c_isSale": false,
+      "c_isSaleSkuUs": false,
+      "c_lilyColor": ["Multicolor"],
+      "c_lilyDressingStyle": ["Classic"],
+      "c_lilyFabricContent": ["Cotton", "Hemp"],
+      "c_lilyFit": ["Relaxed"],
+      "c_lilyNeckStyle": ["Collared", "High Neck"],
+      "c_lilyOccasion": ["Business Casual"],
+      "c_lilyPatternPrints": ["Plaid"],
+      "c_lilySleeveLength": ["Long Sleeve"],
+      "c_lilyStyle": ["Button Down"],
+      "c_longDescriptionFit": "<ul><li>Regular fit.</li></ul>",
+      "c_longDescriptionTech": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "c_masterColor": "Other",
+      "c_masterSize": "LARGE",
+      "c_onlineExclusive": false,
+      "c_parentProductId": "BH600",
+      "c_priceTypeUs": "full",
+      "c_primarySizeChart": "0,0",
+      "c_productGender": "Men",
+      "c_productSizingName": "Classic",
+      "c_searchKeywordsLily": "Multicolor,Classic,Cotton,Hemp,Relaxed,Collared,High Neck,Business Casual,Plaid,Long Sleeve,Button Down",
+      "c_shotType": ["_d7"],
+      "c_size": "L",
+      "c_sizeSortId": "01000",
+      "c_skuShotType": "_d1",
+      "c_styleEco": ["Sustainable"],
+      "c_swatchOrderAlphabetical": false,
+      "c_trendingBadges": ["newColor", "newLast2Weeks", "newLast4Weeks"],
+      "c_size-value": "LARGE",
+      "c_listPrice": 12566.0,
+      "c_imageURL": "https://www.jcrew.com/s7-img-facade/BH600_YD1079?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+    },
+    {
+      "_type": "product",
+      "brand": "J.Crew",
+      "currency": "INR",
+      "ean": "99106655332",
+      "id": "99106655332",
+      "inventory": {
+        "_type": "inventory",
+        "ats": 171,
+        "backorderable": false,
+        "id": "inventory_jcrew_US",
+        "in_stock_date": "2022-05-03T00:00:00.000Z",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 171
+      },
+      "long_description": "The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.",
+      "master": {
+        "_type": "master",
+        "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600?country-code=IN",
+        "master_id": "BH600",
+        "orderable": true
+      },
+      "min_order_quantity": 1,
+      "name": "Indian madras shirt in cotton",
+      "short_description": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "step_quantity": 1,
+      "type": { "_type": "product_type", "variant": true },
+      "unit_measure": "",
+      "unit_quantity": 0,
+      "upc": "BH600YD1079XL",
+      "valid_from": {
+        "default@Factory_US": "2022-04-05T05:00:00.000Z",
+        "default@Jcrew_US": "2022-04-05T05:00:00.000Z"
+      },
+      "variants": [
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655333?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655333",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655334?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655334",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655328?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655328",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655325?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655325",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655332?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655332",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655345?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655345",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655335?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655335",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655343?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655343",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655331?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655331",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655327?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655327",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655339?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655339",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655326?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655326",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655324?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655324",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655341?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655341",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655338?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655338",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655347?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655347",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655321?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655321",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655329?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655329",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655322?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655322",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655336?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655336",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655340?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655340",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655348?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655348",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655346?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655346",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655342?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655342",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        }
+      ],
+      "variation_attributes": [
+        {
+          "_type": "variation_attribute",
+          "id": "color",
+          "name": "Color",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "KERBER MADRAS PINK PURP",
+              "orderable": true,
+              "value": "YD1074"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d3,_d4,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "FREEMAN PATCHWORK MADRA",
+              "orderable": true,
+              "value": "YD1079"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "JIMMY MADRAS GREEN BURG",
+              "orderable": true,
+              "value": "YD1081"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "YORKVILLE BLEEDER MADRA",
+              "orderable": true,
+              "value": "YD1230"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "size",
+          "name": "Size",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "00400",
+              "name": "X-SMALL",
+              "orderable": true,
+              "value": "XS"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00600",
+              "name": "SMALL",
+              "orderable": true,
+              "value": "S"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00800",
+              "name": "MEDIUM",
+              "orderable": true,
+              "value": "M"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01000",
+              "name": "LARGE",
+              "orderable": true,
+              "value": "L"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01200",
+              "name": "X-LARGE",
+              "orderable": true,
+              "value": "XL"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "02000",
+              "name": "XX-LARGE",
+              "orderable": true,
+              "value": "XXL"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "productSizingName",
+          "name": "Fit Type",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "BH600||default||||||<ul><li>Regular fit.</li></ul>",
+              "name": "Classic",
+              "orderable": true,
+              "value": "Classic"
+            }
+          ]
+        }
+      ],
+      "variation_groups": [
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1074?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1074",
+          "variation_values": { "color": "YD1074" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1079?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1079",
+          "variation_values": { "color": "YD1079" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1081?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1081",
+          "variation_values": { "color": "YD1081" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1230?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1230",
+          "variation_values": { "color": "YD1230" }
+        }
+      ],
+      "variation_values": {
+        "color": "YD1079",
+        "size": "XL",
+        "productSizingName": "Classic"
+      },
+      "c_ProductSearchBoost": "4",
+      "c_SAPClass": "AA2A3S0",
+      "c_SAPDepartment": "AA2A3",
+      "c_SAPDepartmentDescription": "M WOVEN SHIRTS",
+      "c_SAPSubClass": "AA2A3S0I3",
+      "c_allowedCountries": ["ALL"],
+      "c_availableDate": "2022-04-26",
+      "c_categories": [
+        "mens~categories~clothing~shirts",
+        "mens~categories~clothing~shirts~madras",
+        "mens~features~new-arrivals"
+      ],
+      "c_color": "YD1079",
+      "c_color-value": "FREEMAN PATCHWORK MADRA",
+      "c_colorFamily": "OTHER",
+      "c_colorShotTypeMap": "{\"classicProductCode\":\"BH600\",\"colorShotTypes\":{\"YD1074\":\"_d7\",\"YD1079\":\"_m,_d1,_d2,_d3,_d4,_d7\",\"YD1081\":\"_m,_d1,_d2,_d7\",\"YD1230\":\"_d7\"}}",
+      "c_defaultCategoryId": "mens~categories~clothing~shirts~madras",
+      "c_defaultColorCode": "YD1230",
+      "c_discountPercentageCAD": 0.0,
+      "c_discountPercentageEUR": 0.0,
+      "c_discountPercentageGBP": 0.0,
+      "c_discountPercentageHKD": 0.0,
+      "c_discountPercentageUSD": 0.0,
+      "c_displayLaydownImages": false,
+      "c_displayOn": [
+        "standard_usd",
+        "search_usd",
+        "standard_cad",
+        "search_cad",
+        "standard_gbp",
+        "search_gbp",
+        "standard_hkd",
+        "search_hkd",
+        "standard_eur",
+        "search_eur",
+        "standard_intl",
+        "search_intl"
+      ],
+      "c_exclude_ship_to_store": false,
+      "c_hasOnfig": true,
+      "c_isBoxable": true,
+      "c_isFinalSale": false,
+      "c_isFreeShipping": false,
+      "c_isMarkdownUs": false,
+      "c_isMarketplace": false,
+      "c_isMultiSell": false,
+      "c_isPlusSize": false,
+      "c_isSale": false,
+      "c_isSaleSkuUs": false,
+      "c_lilyColor": ["Multicolor"],
+      "c_lilyDressingStyle": ["Classic"],
+      "c_lilyFabricContent": ["Cotton", "Hemp"],
+      "c_lilyFit": ["Relaxed"],
+      "c_lilyNeckStyle": ["Collared", "High Neck"],
+      "c_lilyOccasion": ["Business Casual"],
+      "c_lilyPatternPrints": ["Plaid"],
+      "c_lilySleeveLength": ["Long Sleeve"],
+      "c_lilyStyle": ["Button Down"],
+      "c_longDescriptionFit": "<ul><li>Regular fit.</li></ul>",
+      "c_longDescriptionTech": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "c_masterColor": "Other",
+      "c_masterSize": "X-LARGE",
+      "c_onlineExclusive": false,
+      "c_parentProductId": "BH600",
+      "c_priceTypeUs": "full",
+      "c_primarySizeChart": "0,0",
+      "c_productGender": "Men",
+      "c_productSizingName": "Classic",
+      "c_searchKeywordsLily": "Multicolor,Classic,Cotton,Hemp,Relaxed,Collared,High Neck,Business Casual,Plaid,Long Sleeve,Button Down",
+      "c_shotType": ["_d7"],
+      "c_size": "XL",
+      "c_sizeSortId": "01200",
+      "c_skuShotType": "_d1",
+      "c_styleEco": ["Sustainable"],
+      "c_swatchOrderAlphabetical": false,
+      "c_trendingBadges": ["newColor", "newLast2Weeks", "newLast4Weeks"],
+      "c_size-value": "X-LARGE",
+      "c_listPrice": 12566.0,
+      "c_imageURL": "https://www.jcrew.com/s7-img-facade/BH600_YD1079?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+    },
+    {
+      "_type": "product",
+      "brand": "J.Crew",
+      "currency": "INR",
+      "ean": "99106655331",
+      "id": "99106655331",
+      "inventory": {
+        "_type": "inventory",
+        "ats": 90,
+        "backorderable": false,
+        "id": "inventory_jcrew_US",
+        "in_stock_date": "2022-05-03T00:00:00.000Z",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 90
+      },
+      "long_description": "The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.",
+      "master": {
+        "_type": "master",
+        "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600?country-code=IN",
+        "master_id": "BH600",
+        "orderable": true
+      },
+      "min_order_quantity": 1,
+      "name": "Indian madras shirt in cotton",
+      "short_description": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "step_quantity": 1,
+      "type": { "_type": "product_type", "variant": true },
+      "unit_measure": "",
+      "unit_quantity": 0,
+      "upc": "BH600YD1079S",
+      "valid_from": {
+        "default@Factory_US": "2022-04-05T05:00:00.000Z",
+        "default@Jcrew_US": "2022-04-05T05:00:00.000Z"
+      },
+      "variants": [
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655333?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655333",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655334?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655334",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655328?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655328",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655325?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655325",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655332?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655332",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655345?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655345",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655335?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655335",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655343?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655343",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655331?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655331",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655327?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655327",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655339?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655339",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655326?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655326",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655324?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655324",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655341?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655341",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655338?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655338",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655347?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655347",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655321?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655321",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655329?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655329",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655322?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655322",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655336?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655336",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655340?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655340",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655348?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655348",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655346?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655346",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655342?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655342",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        }
+      ],
+      "variation_attributes": [
+        {
+          "_type": "variation_attribute",
+          "id": "color",
+          "name": "Color",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "KERBER MADRAS PINK PURP",
+              "orderable": true,
+              "value": "YD1074"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d3,_d4,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "FREEMAN PATCHWORK MADRA",
+              "orderable": true,
+              "value": "YD1079"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "JIMMY MADRAS GREEN BURG",
+              "orderable": true,
+              "value": "YD1081"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "YORKVILLE BLEEDER MADRA",
+              "orderable": true,
+              "value": "YD1230"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "size",
+          "name": "Size",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "00400",
+              "name": "X-SMALL",
+              "orderable": true,
+              "value": "XS"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00600",
+              "name": "SMALL",
+              "orderable": true,
+              "value": "S"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00800",
+              "name": "MEDIUM",
+              "orderable": true,
+              "value": "M"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01000",
+              "name": "LARGE",
+              "orderable": true,
+              "value": "L"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01200",
+              "name": "X-LARGE",
+              "orderable": true,
+              "value": "XL"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "02000",
+              "name": "XX-LARGE",
+              "orderable": true,
+              "value": "XXL"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "productSizingName",
+          "name": "Fit Type",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "BH600||default||||||<ul><li>Regular fit.</li></ul>",
+              "name": "Classic",
+              "orderable": true,
+              "value": "Classic"
+            }
+          ]
+        }
+      ],
+      "variation_groups": [
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1074?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1074",
+          "variation_values": { "color": "YD1074" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1079?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1079",
+          "variation_values": { "color": "YD1079" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1081?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1081",
+          "variation_values": { "color": "YD1081" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1230?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1230",
+          "variation_values": { "color": "YD1230" }
+        }
+      ],
+      "variation_values": {
+        "color": "YD1079",
+        "size": "S",
+        "productSizingName": "Classic"
+      },
+      "c_ProductSearchBoost": "4",
+      "c_SAPClass": "AA2A3S0",
+      "c_SAPDepartment": "AA2A3",
+      "c_SAPDepartmentDescription": "M WOVEN SHIRTS",
+      "c_SAPSubClass": "AA2A3S0I3",
+      "c_allowedCountries": ["ALL"],
+      "c_availableDate": "2022-04-26",
+      "c_categories": [
+        "mens~categories~clothing~shirts",
+        "mens~categories~clothing~shirts~madras",
+        "mens~features~new-arrivals"
+      ],
+      "c_color": "YD1079",
+      "c_color-value": "FREEMAN PATCHWORK MADRA",
+      "c_colorFamily": "OTHER",
+      "c_colorShotTypeMap": "{\"classicProductCode\":\"BH600\",\"colorShotTypes\":{\"YD1074\":\"_d7\",\"YD1079\":\"_m,_d1,_d2,_d3,_d4,_d7\",\"YD1081\":\"_m,_d1,_d2,_d7\",\"YD1230\":\"_d7\"}}",
+      "c_defaultCategoryId": "mens~categories~clothing~shirts~madras",
+      "c_defaultColorCode": "YD1230",
+      "c_discountPercentageCAD": 0.0,
+      "c_discountPercentageEUR": 0.0,
+      "c_discountPercentageGBP": 0.0,
+      "c_discountPercentageHKD": 0.0,
+      "c_discountPercentageUSD": 0.0,
+      "c_displayLaydownImages": false,
+      "c_displayOn": [
+        "standard_usd",
+        "search_usd",
+        "standard_cad",
+        "search_cad",
+        "standard_gbp",
+        "search_gbp",
+        "standard_hkd",
+        "search_hkd",
+        "standard_eur",
+        "search_eur",
+        "standard_intl",
+        "search_intl"
+      ],
+      "c_exclude_ship_to_store": false,
+      "c_hasOnfig": true,
+      "c_isBoxable": true,
+      "c_isFinalSale": false,
+      "c_isFreeShipping": false,
+      "c_isMarkdownUs": false,
+      "c_isMarketplace": false,
+      "c_isMultiSell": false,
+      "c_isPlusSize": false,
+      "c_isSale": false,
+      "c_isSaleSkuUs": false,
+      "c_lilyColor": ["Multicolor"],
+      "c_lilyDressingStyle": ["Classic"],
+      "c_lilyFabricContent": ["Cotton", "Hemp"],
+      "c_lilyFit": ["Relaxed"],
+      "c_lilyNeckStyle": ["Collared", "High Neck"],
+      "c_lilyOccasion": ["Business Casual"],
+      "c_lilyPatternPrints": ["Plaid"],
+      "c_lilySleeveLength": ["Long Sleeve"],
+      "c_lilyStyle": ["Button Down"],
+      "c_longDescriptionFit": "<ul><li>Regular fit.</li></ul>",
+      "c_longDescriptionTech": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "c_masterColor": "Other",
+      "c_masterSize": "SMALL",
+      "c_onlineExclusive": false,
+      "c_parentProductId": "BH600",
+      "c_priceTypeUs": "full",
+      "c_primarySizeChart": "0,0",
+      "c_productGender": "Men",
+      "c_productSizingName": "Classic",
+      "c_searchKeywordsLily": "Multicolor,Classic,Cotton,Hemp,Relaxed,Collared,High Neck,Business Casual,Plaid,Long Sleeve,Button Down",
+      "c_shotType": ["_d7"],
+      "c_size": "S",
+      "c_sizeSortId": "00600",
+      "c_skuShotType": "_d1",
+      "c_styleEco": ["Sustainable"],
+      "c_swatchOrderAlphabetical": false,
+      "c_trendingBadges": ["newColor", "newLast2Weeks", "newLast4Weeks"],
+      "c_size-value": "SMALL",
+      "c_listPrice": 12566.0,
+      "c_imageURL": "https://www.jcrew.com/s7-img-facade/BH600_YD1079?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+    },
+    {
+      "_type": "product",
+      "brand": "J.Crew",
+      "currency": "INR",
+      "ean": "99106655329",
+      "id": "99106655329",
+      "inventory": {
+        "_type": "inventory",
+        "ats": 341,
+        "backorderable": false,
+        "id": "inventory_jcrew_US",
+        "in_stock_date": "2022-05-03T00:00:00.000Z",
+        "orderable": true,
+        "preorderable": false,
+        "stock_level": 341
+      },
+      "long_description": "The name for madras comes from the Indian city of Madraspatnam (now known as Chennai), home to some of the best of the classic cloth since the 17th century. For these shirts, we went to the country that invented the comfortable, extra-light fabric to create one-of-a-kind patterns you won't find anywhere else.",
+      "master": {
+        "_type": "master",
+        "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600?country-code=IN",
+        "master_id": "BH600",
+        "orderable": true
+      },
+      "min_order_quantity": 1,
+      "name": "Indian madras shirt in cotton",
+      "short_description": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "step_quantity": 1,
+      "type": { "_type": "product_type", "variant": true },
+      "unit_measure": "",
+      "unit_quantity": 0,
+      "upc": "BH600YD1079M",
+      "valid_from": {
+        "default@Factory_US": "2022-04-05T05:00:00.000Z",
+        "default@Jcrew_US": "2022-04-05T05:00:00.000Z"
+      },
+      "variants": [
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655333?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655333",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655334?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655334",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655328?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655328",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655325?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655325",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655332?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655332",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655345?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655345",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655335?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655335",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655343?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655343",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655331?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655331",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655327?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655327",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655339?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655339",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655326?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655326",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655324?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655324",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655341?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655341",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655338?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655338",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "S",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655347?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655347",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655321?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655321",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655329?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655329",
+          "variation_values": {
+            "color": "YD1079",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655322?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655322",
+          "variation_values": {
+            "color": "YD1074",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655336?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655336",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "M",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655340?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655340",
+          "variation_values": {
+            "color": "YD1081",
+            "size": "XS",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655348?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655348",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XXL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655346?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655346",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "XL",
+            "productSizingName": "Classic"
+          }
+        },
+        {
+          "_type": "variant",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/99106655342?country-code=IN",
+          "orderable": true,
+          "product_id": "99106655342",
+          "variation_values": {
+            "color": "YD1230",
+            "size": "L",
+            "productSizingName": "Classic"
+          }
+        }
+      ],
+      "variation_attributes": [
+        {
+          "_type": "variation_attribute",
+          "id": "color",
+          "name": "Color",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "KERBER MADRAS PINK PURP",
+              "orderable": true,
+              "value": "YD1074"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d3,_d4,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "FREEMAN PATCHWORK MADRA",
+              "orderable": true,
+              "value": "YD1079"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_m,_d1,_d2,_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "JIMMY MADRAS GREEN BURG",
+              "orderable": true,
+              "value": "YD1081"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "Other|_d7|{ \"Classic\" : \"newColor+newLast2Weeks+newLast4Weeks\" }",
+              "name": "YORKVILLE BLEEDER MADRA",
+              "orderable": true,
+              "value": "YD1230"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "size",
+          "name": "Size",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "00400",
+              "name": "X-SMALL",
+              "orderable": true,
+              "value": "XS"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00600",
+              "name": "SMALL",
+              "orderable": true,
+              "value": "S"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "00800",
+              "name": "MEDIUM",
+              "orderable": true,
+              "value": "M"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01000",
+              "name": "LARGE",
+              "orderable": true,
+              "value": "L"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "01200",
+              "name": "X-LARGE",
+              "orderable": true,
+              "value": "XL"
+            },
+            {
+              "_type": "variation_attribute_value",
+              "description": "02000",
+              "name": "XX-LARGE",
+              "orderable": true,
+              "value": "XXL"
+            }
+          ]
+        },
+        {
+          "_type": "variation_attribute",
+          "id": "productSizingName",
+          "name": "Fit Type",
+          "values": [
+            {
+              "_type": "variation_attribute_value",
+              "description": "BH600||default||||||<ul><li>Regular fit.</li></ul>",
+              "name": "Classic",
+              "orderable": true,
+              "value": "Classic"
+            }
+          ]
+        }
+      ],
+      "variation_groups": [
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1074?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1074",
+          "variation_values": { "color": "YD1074" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1079?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1079",
+          "variation_values": { "color": "YD1079" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1081?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1081",
+          "variation_values": { "color": "YD1081" }
+        },
+        {
+          "_type": "variation_group",
+          "link": "https://ocapi.jcrew.com/s/Jcrew_US/dw/shop/v21_10/products/BH600-YD1230?country-code=IN",
+          "orderable": true,
+          "product_id": "BH600-YD1230",
+          "variation_values": { "color": "YD1230" }
+        }
+      ],
+      "variation_values": {
+        "color": "YD1079",
+        "size": "M",
+        "productSizingName": "Classic"
+      },
+      "c_ProductSearchBoost": "4",
+      "c_SAPClass": "AA2A3S0",
+      "c_SAPDepartment": "AA2A3",
+      "c_SAPDepartmentDescription": "M WOVEN SHIRTS",
+      "c_SAPSubClass": "AA2A3S0I3",
+      "c_allowedCountries": ["ALL"],
+      "c_availableDate": "2022-04-26",
+      "c_categories": [
+        "mens~categories~clothing~shirts",
+        "mens~categories~clothing~shirts~madras",
+        "mens~features~new-arrivals"
+      ],
+      "c_color": "YD1079",
+      "c_color-value": "FREEMAN PATCHWORK MADRA",
+      "c_colorFamily": "OTHER",
+      "c_colorShotTypeMap": "{\"classicProductCode\":\"BH600\",\"colorShotTypes\":{\"YD1074\":\"_d7\",\"YD1079\":\"_m,_d1,_d2,_d3,_d4,_d7\",\"YD1081\":\"_m,_d1,_d2,_d7\",\"YD1230\":\"_d7\"}}",
+      "c_defaultCategoryId": "mens~categories~clothing~shirts~madras",
+      "c_defaultColorCode": "YD1230",
+      "c_discountPercentageCAD": 0.0,
+      "c_discountPercentageEUR": 0.0,
+      "c_discountPercentageGBP": 0.0,
+      "c_discountPercentageHKD": 0.0,
+      "c_discountPercentageUSD": 0.0,
+      "c_displayLaydownImages": false,
+      "c_displayOn": [
+        "standard_usd",
+        "search_usd",
+        "standard_cad",
+        "search_cad",
+        "standard_gbp",
+        "search_gbp",
+        "standard_hkd",
+        "search_hkd",
+        "standard_eur",
+        "search_eur",
+        "standard_intl",
+        "search_intl"
+      ],
+      "c_exclude_ship_to_store": false,
+      "c_hasOnfig": true,
+      "c_isBoxable": true,
+      "c_isFinalSale": false,
+      "c_isFreeShipping": false,
+      "c_isMarkdownUs": false,
+      "c_isMarketplace": false,
+      "c_isMultiSell": false,
+      "c_isPlusSize": false,
+      "c_isSale": false,
+      "c_isSaleSkuUs": false,
+      "c_lilyColor": ["Multicolor"],
+      "c_lilyDressingStyle": ["Classic"],
+      "c_lilyFabricContent": ["Cotton", "Hemp"],
+      "c_lilyFit": ["Relaxed"],
+      "c_lilyNeckStyle": ["Collared", "High Neck"],
+      "c_lilyOccasion": ["Business Casual"],
+      "c_lilyPatternPrints": ["Plaid"],
+      "c_lilySleeveLength": ["Long Sleeve"],
+      "c_lilyStyle": ["Button Down"],
+      "c_longDescriptionFit": "<ul><li>Regular fit.</li></ul>",
+      "c_longDescriptionTech": "<li>Hemp/cotton.</li><li>Machine wash.</li><li>Import.</li><li>Select stores.</li>",
+      "c_masterColor": "Other",
+      "c_masterSize": "MEDIUM",
+      "c_onlineExclusive": false,
+      "c_parentProductId": "BH600",
+      "c_priceTypeUs": "full",
+      "c_primarySizeChart": "0,0",
+      "c_productGender": "Men",
+      "c_productSizingName": "Classic",
+      "c_searchKeywordsLily": "Multicolor,Classic,Cotton,Hemp,Relaxed,Collared,High Neck,Business Casual,Plaid,Long Sleeve,Button Down",
+      "c_shotType": ["_d7"],
+      "c_size": "M",
+      "c_sizeSortId": "00800",
+      "c_skuShotType": "_d1",
+      "c_styleEco": ["Sustainable"],
+      "c_swatchOrderAlphabetical": false,
+      "c_trendingBadges": ["newColor", "newLast2Weeks", "newLast4Weeks"],
+      "c_size-value": "MEDIUM",
+      "c_listPrice": 12566.0,
+      "c_imageURL": "https://www.jcrew.com/s7-img-facade/BH600_YD1079?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=408&hei=408"
+    }
+  ],
+  "total": 6
+}
