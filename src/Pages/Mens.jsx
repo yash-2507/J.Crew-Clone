@@ -9,7 +9,6 @@ export default function Mens() {
     }, []);
     return (
         <>
-            <Navbar />
             <div className={styles.main}>
                 <div className={styles.headWrap}>
                     <div className={styles.headImg}>
@@ -131,7 +130,6 @@ export default function Mens() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }
