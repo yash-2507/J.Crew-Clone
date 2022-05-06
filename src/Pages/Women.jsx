@@ -9,6 +9,7 @@ export default function Women() {
     }, []);
     return (
         <>
+            <Navbar />
             <div className={styles.main}>
                 <div className={styles.MainPageTop}>
                     <div
@@ -136,6 +137,7 @@ export default function Women() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

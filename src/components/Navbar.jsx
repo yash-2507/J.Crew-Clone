@@ -5,10 +5,6 @@ import { HeartIcon, MainLogo } from "./SvgIcons";
 import { useDispatch, useSelector } from "react-redux";
 import { openLogin } from "../features/Login/LoginSlice";
 import { User } from "./Icons";
-import Index from "../Pages/Index";
-import Mens from "../Pages/Mens";
-import Women from "../Pages/Women";
-import Kids from "../Pages/Kids";
 
 export default function Navbar() {
     const { isLogin } = useSelector((store) => store.login);

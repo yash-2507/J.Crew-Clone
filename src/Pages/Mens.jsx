@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import styles from "../components/styles/Mens.module.css";
@@ -9,6 +10,7 @@ export default function Mens() {
     }, []);
     return (
         <>
+            <Navbar />
             <div className={styles.main}>
                 <div className={styles.headWrap}>
                     <div className={styles.headImg}>
@@ -39,32 +41,40 @@ export default function Mens() {
                     <h3>Shops, stories & more</h3>
                     <div className={styles.midImgWrap}>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img0.jpg"
-                                alt=""
-                            />
-                            <h4>Suited for summer</h4>
+                            <Link to="/products">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img0.jpg"
+                                    alt=""
+                                />
+                                <h4>Suited for summer</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img1.jpg"
-                                alt=""
-                            />
-                            <h4>New Arrivals</h4>
+                            <Link to="/products">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img1.jpg"
+                                    alt=""
+                                />
+                                <h4>New Arrivals</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img2.jpg"
-                                alt=""
-                            />
-                            <h4>The sports report</h4>
+                            <Link to="/products">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img2.jpg"
+                                    alt=""
+                                />
+                                <h4>The sports report</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img3.jpg"
-                                alt=""
-                            />
-                            <h5>Best in swim since 1983</h5>
+                            <Link to="/products">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img3.jpg"
+                                    alt=""
+                                />
+                                <h4>Best in swim since 1983</h4>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -130,6 +140,7 @@ export default function Mens() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

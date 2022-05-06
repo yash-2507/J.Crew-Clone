@@ -9,6 +9,7 @@ export default function Kids() {
     }, []);
     return (
         <>
+            <Navbar />
             <div className={styles.main}>
                 <div className={styles.KidsHeader}>
                     <h1>welcome to crewcuts!</h1>
@@ -95,6 +96,7 @@ export default function Kids() {
                     </p>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
