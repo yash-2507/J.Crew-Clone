@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/FooterBottom.css";
 import { FooterBottom_1, FooterBottom_2 } from "./SvgIcons";
 import xyz from "../assets/india.png";
+import { Link } from "react-router-dom";
 
 export default function FooterBottom() {
     return (
@@ -58,12 +59,24 @@ export default function FooterBottom() {
                         </div>
                     </div>
                     <div className="footer_socialIcons">
-                        <i className="fa-brands fa-instagram"></i>
-                        <i className="fa-brands fa-facebook-f"></i>
-                        <i className="fa-brands fa-twitter"></i>
-                        <i className="fa-brands fa-linkedin"></i>
-                        <i className="fa-brands fa-pinterest"></i>
-                        <i className="fa-brands fa-youtube"></i>
+                        <a href="http://instagram.com/jcrew" target="_blank">
+                            <i className="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/jcrew" target="_blank">
+                            <i className="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/jcrew" target="_blank">
+                            <i className="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/j-crew" target="_blank">
+                            <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="http://pinterest.com/jcrew/" target="_blank">
+                            <i className="fa-brands fa-pinterest"></i>
+                        </a>
+                        <a href="http://www.youtube.com/user/jcrewinsider" target="_blank">
+                            <i className="fa-brands fa-youtube"></i>
+                        </a>
                     </div>
                     <div
                         style={{

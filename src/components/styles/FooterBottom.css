@@ -55,6 +55,10 @@
     cursor: pointer;
     margin-bottom: 25px;
 }
+.footer_socialIcons a {
+    text-decoration: none;
+    color: black;
+}
 .footerSvgIcons {
     margin-bottom: 25px;
 }

@@ -7,6 +7,7 @@ import Kids from "./Kids";
 import Mens from "./Mens";
 import Women from "./Women";
 import ProductPage from "./ProductPage";
+import KidsProductPage from "./KidsProduct/KidsProductPage";
 
 export default function Index() {
     return (
@@ -17,7 +18,8 @@ export default function Index() {
                 <Route exact path="/mens" element={<Mens />}></Route>
                 <Route exact path="/women" element={<Women />}></Route>
                 <Route exact path="/kids" element={<Kids />}></Route>
-                <Route exact path="/products" element={<ProductPage />} />
+                <Route exact path="/products/mens" element={<ProductPage />} />
+                <Route exact path="/products/kids" element={<KidsProductPage />} />
             </Routes>
             <Footer />
         </>

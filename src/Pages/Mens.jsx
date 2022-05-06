@@ -10,7 +10,6 @@ export default function Mens() {
     }, []);
     return (
         <>
-            <Navbar />
             <div className={styles.main}>
                 <div className={styles.headWrap}>
                     <div className={styles.headImg}>
@@ -41,7 +40,7 @@ export default function Mens() {
                     <h3>Shops, stories & more</h3>
                     <div className={styles.midImgWrap}>
                         <div className={styles.midImg}>
-                            <Link to="/products">
+                            <Link to="/products/mens">
                                 <img
                                     src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img0.jpg"
                                     alt=""
@@ -50,7 +49,7 @@ export default function Mens() {
                             </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <Link to="/products">
+                            <Link to="/products/mens">
                                 <img
                                     src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img1.jpg"
                                     alt=""
@@ -59,7 +58,7 @@ export default function Mens() {
                             </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <Link to="/products">
+                            <Link to="/products/mens">
                                 <img
                                     src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img2.jpg"
                                     alt=""
@@ -68,7 +67,7 @@ export default function Mens() {
                             </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <Link to="/products">
+                            <Link to="/products/mens">
                                 <img
                                     src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_m_img3.jpg"
                                     alt=""
@@ -140,7 +139,6 @@ export default function Mens() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

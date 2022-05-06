@@ -56,6 +56,10 @@
     width: 100%;
     height: 416.31px;
 }
+.midImg a {
+    text-decoration: none;
+    color: black;
+}
 .aboveFooter {
     width: 100%;
     height: 120px;

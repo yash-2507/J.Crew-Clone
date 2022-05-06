@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import styles from "../components/styles/Kids.module.css";
@@ -9,7 +10,6 @@ export default function Kids() {
     }, []);
     return (
         <>
-            <Navbar />
             <div className={styles.main}>
                 <div className={styles.KidsHeader}>
                     <h1>welcome to crewcuts!</h1>
@@ -45,32 +45,41 @@ export default function Kids() {
                     <h3>Shops, stories & more</h3>
                     <div className={styles.midImgWrap}>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img0.jpg"
-                                alt=""
-                            />
-                            <h4>New Arrivals</h4>
+                            <Link to="/products/kids">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img0.jpg"
+                                    alt=""
+                                />
+                                <h4>New Arrivals</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img1.jpg"
-                                alt=""
-                            />
-                            <h4>The mini-me shop</h4>
+                            <Link to="/products/kids">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img1.jpg"
+                                    alt=""
+                                />
+                                <h4>The mini-me shop</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="	https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img2.jpg"
-                                alt=""
-                            />
-                            <h4>(Swim) suit yourself</h4>
+                            <Link to="/products/kids">
+                                {" "}
+                                <img
+                                    src="	https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img2.jpg"
+                                    alt=""
+                                />
+                                <h4>(Swim) suit yourself</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="	https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img3.jpg"
-                                alt=""
-                            />
-                            <h5>It's dress season</h5>
+                            <Link to="/products/kids">
+                                <img
+                                    src="	https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0426_flyouts_cc_img3.jpg"
+                                    alt=""
+                                />
+                                <h4>It's dress season</h4>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -96,7 +105,6 @@ export default function Kids() {
                     </p>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }
