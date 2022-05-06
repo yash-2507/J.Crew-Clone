@@ -1,0 +1,55 @@
+.main_div{
+    width: 1263.33px;
+    height: 8505.04px;
+    border: 1px solid black;
+}
+.box1{
+    width: 1263.33px;
+    height: 1203.67px;
+    border: 1px solid black;
+   
+}
+.pic1{
+    width: 1263.33px;
+    height: 951.51px;
+    border: 1px solid black;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img0.jpg);
+}
+.pic1 h1{
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    /* line-height: 40px; */
+    color: white;
+    /* padding-top: 300px; */
+    
+}
+.back1{
+    width: 1263.33px;
+    height: 251.16px;
+    /* border: 1px solid yellow; */
+    background-color: #deba58;
+}
+
+.para{
+    width: 505.33px;
+    height: 140.56px;
+    /* border: 1px solid black; */
+    padding-left: 65px;
+    padding-top: 60px;
+    
+}
+.para p{
+    font-size: 15px;
+    margin-top: 0px;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.box2{
+    width: 1263.33px;
+    height: 776.42px;
+    border: 1px solid black;
+    background-image: url(	https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img1.jpg);
+}
