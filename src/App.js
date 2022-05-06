@@ -6,6 +6,9 @@ import ModalMain from "./components/ModalMain";
 import Navbar from "./components/Navbar";
 import LoginModal from "./components/LoginModal";
 import SignUpModal from "./components/SignUpModal";
+import Mens from "./Pages/Mens";
+import Women from "./Pages/Women";
+import Kids from "./Pages/Kids";
 
 function App() {
     const { isOpen } = useSelector((store) => store.modal);
@@ -18,6 +21,9 @@ function App() {
             <Navbar />
             <MainPage />
             <Footer />
+            {/* <Mens /> */}
+            {/* <Women /> */}
+            {/* <Kids /> */}
         </div>
     );
 }

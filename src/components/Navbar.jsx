@@ -5,13 +5,15 @@ import { HeartIcon, MainLogo } from "./SvgIcons";
 import { useDispatch, useSelector } from "react-redux";
 import { openLogin } from "../features/Login/LoginSlice";
 import { User } from "./Icons";
+import Mens from "../Pages/Mens";
+import App from "../App";
 
 export default function Navbar() {
     const { isLogin } = useSelector((store) => store.login);
     const dispatch = useDispatch();
     <Routes>
-        <Route path="/" element></Route>
-        <Route path="/men" element></Route>
+        <Route path="/" element={<App />}></Route>
+        <Route path="/mens" element={<Mens />}></Route>
         <Route path="/women" element></Route>
         <Route path="/kids" element></Route>
         <Route path="/swim" element></Route>
@@ -28,7 +30,7 @@ export default function Navbar() {
                     <Link to="/">
                         <h4>New</h4>
                     </Link>
-                    <Link to="/men">
+                    <Link to="/mens">
                         <h4>Men</h4>
                     </Link>
                     <Link to="/women">
