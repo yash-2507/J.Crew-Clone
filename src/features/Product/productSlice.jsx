@@ -77,8 +77,6 @@ const productSlice = createSlice({
         },
         change_filter_2: (state, { payload }) => {
             const { mainIndex, primaryIndex } = payload;
-            // console.log(mainIndex, primaryIndex);
-            // console.log("state.filters[mainIndex]: ", state.filters[mainIndex]);
             state.filters[mainIndex].options[primaryIndex].status =
                 !state.filters[mainIndex].options[primaryIndex].status;
         },

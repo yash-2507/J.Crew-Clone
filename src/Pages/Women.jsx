@@ -6,7 +6,6 @@ import styles from "../components/styles/Women.module.css";
 export default function Women() {
     useEffect(() => {
         document.title = "Women's Clothing | J.Crew";
-        console.log(document);
     }, []);
     return (
         <>
