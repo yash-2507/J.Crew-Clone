@@ -1,0 +1,150 @@
+.app{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+    margin: auto;
+    /* box-shadow: 0 0 5px #ccc; */
+  }
+  .details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    /* height: 500px;
+    width: 550px;
+    border: 1px solid red; */
+  }
+  .details .big-img{
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+  }
+  .big-img img{
+    width: 600px;
+    height: 800px;
+    max-height: 900px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .details .box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+  }
+  /* .box .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  } */
+  .box .row h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .box .row span{
+    color: crimson;
+  }
+  .box .colors button{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #333; */
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .thumb{
+    width: 200px;
+    height: 130px;
+    display: flex;
+    cursor: pointer;
+    /* margin: 10px 0; */
+  /* margin: auto; */
+  
+  }
+  .thumb img{
+    width: 90px;
+    height: 120px;
+    display: block;
+    margin-left: 50%;
+    margin-right: 5px;
+    opacity: 0.7;
+    border-radius: 5px;
+  }
+  .thumb img.active{
+    opacity: 1;
+    border: 1px solid lightseagreen;
+  }
+  .box .cart{
+    background: #333;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 500px){
+    .thumb{
+      height: 50px;
+    }
+    .thumb img{
+      width: 50px;
+    }
+  }
+  
+  .vouchar{
+   margin-top: 30px !important;
+    
+  }
+  .size_button
+  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+    width: 80%;
+  
+  }
+  
+  .size_button button{
+    padding: 5px;
+    border: rgba(0, 0, 0, 0.934);
+    width: 100px;
+  }
+  
+  .qty
+  {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .thumb{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 8%;
+    /* height: 300px; */
+    /* border: 1px solid red; */
+  }
+  .small-img{
+  width: 100px;
+  
+  }
+  
+  
+  .earth
+  {
+    display: flex;
+  }
+  
+  .earth img
+  {
+    height: 20px;
+    width: 20px;
+    gap: 20px;
+    margin-right: 5px;
+  }
