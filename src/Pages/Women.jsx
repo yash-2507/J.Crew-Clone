@@ -6,6 +6,7 @@ import styles from "../components/styles/Women.module.css";
 export default function Women() {
     useEffect(() => {
         document.title = "Women's Clothing | J.Crew";
+        console.log(document);
     }, []);
     return (
         <>
@@ -70,7 +71,7 @@ export default function Women() {
                                 src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img3.jpg"
                                 alt=""
                             />
-                            <h5>The Linen Shop</h5>
+                            <h4>The Linen Shop</h4>
                         </div>
                     </div>
                 </div>
