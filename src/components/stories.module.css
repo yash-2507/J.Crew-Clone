@@ -1,6 +1,6 @@
 .main_div{
     width: 1263.33px;
-    height: 8505.04px;
+    height: 8305.04px;
     border: 1px solid black;
 }
 .box1{
@@ -56,21 +56,21 @@
 .box3{
     width: 1263.33px;
     height: 885.42px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     gap: 65px;
 }
 .img1{
     width: 644.29px;
     height: 784.27px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 101px;
     background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img2.jpg);
 }
 .img2{
     width: 505.33px;
     height: 674.33px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
    
 }
 .img2 p{
@@ -114,36 +114,216 @@
 .box6{
     width: 1263.33px;
     height: 530.98px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    
+}
+.QnA{
+    width: 694.83px;
+    height: 530.98px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.head{
+    width: 694.83px;
+    height: 63.91px;
+    /* border: 1px solid black; */
+}
+.head p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    font-size: 60px;
+}
+.ques1{
+    width: 660.08px;
+    height: 123.25px;
+    /* border: 1px solid black; */
+}
+.ques1 p{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.ques1 a{
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+    
+
+}
+.ques2{
+    width: 660.08px;
+    height: 123.25px;
+    /* border: 1px solid black; */
+}
+.ques2 p{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+}
+.ques2 a{
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+
+}
+.ques3{
+    width: 660.08px;
+    height: 102.46px;
+    /* border: 1px solid black; */
+}
+.ques3 p{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.ques3 a{
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+
 }
 
 .box7{
     width: 1263.33px;
-    height: 2560.95px;
-    border: 1px solid black; 
+    height: 2490.95px;
+    /* border: 1px solid black;  */
 }
 .bo1{
     width: 1263.33px;
     height: 851.39px;
-    border: 1px solid black;
-    display: flex;
+    /* border: 1px solid black; */
+    /* display: flex; */
     background-color: #f0bb66;
     
+}
+.comb{
+    width: 1263.33px;
+    height: 789.58px;
+    /* border: 1px solid black; */
+    display: flex;
 }
 .left1{
     width: 631.67px;
     height: 789.58px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img7.jpg);
 }
 .right1{
     width: 631.67px;
     height: 789.58px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img8.jpg);
+}
+.text1{
+    width: 785px;
+    height: 38.54px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
 }
 .bo2{
     width: 1263.33px;
     height: 1583.23px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.left2{
+    width: 631.66px;
+    height: 1583.23px;
+    /* border: 1px solid red; */
+    background-color: #f0bb66;
+}
+.right2{
+    
+   width: 631.66px;
+   height: 1583.23px;
+   /* border: 1px solid red; */
+   background-color: #f0bb66;
+}
+
+.pict1{
+    width:568.5px;
+   height: 776.8px;
+   /* border: 1px solid black; */
+   margin-top: 40px;
+   padding-left: 30px;
+   
+}
+.pict1 img{
+    width:568.5px;
+    height: 710.63px;
+}
+.pict3{
+    width: 631.67px;
+   height: 789.58px;
+   /* border: 1px solid black; */
+   margin-top: 230px;
+}
+.pict3 img{
+    width: 631.67px;
+    height: 789.58px;
+}
+.pict2{
+    width: 505.33px;
+   height: 604.15px;
+   /* border: 1px solid black; */
+   margin-top: 60px;
+   padding-left: 60px;
+}
+.pict2 img{
+    width: 505.33px;
+    height: 604.15px;
+    
+}
+
+.box8{
+    width: 1263.33px;
+    height: 640.62px;
+    /* border: 1px solid black; */
+    background-color: #fbf9f5;
+}
+.last{
+    width: 1080.15px;
+    height: 640.62px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.word{
+    width: 1080.15px;
+    height: 52.45px;
+    /* border: 1px solid black; */
+}
+.word p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+.picture{
+    width: 1080.15px;
+    height: 485.84px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 341.09px;
+    height: 485.84px;
+    /* border: 1px solid black; */
+    line-height: 7px;
+}
+.photo img{
+    width: 341.09px;
+    height: 426.37px;
+}
+.photo p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.photo a{
+    font-weight: bold;
+    color: black;
 }
