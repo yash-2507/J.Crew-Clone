@@ -17,6 +17,28 @@ const Story=()=> {
                 </div>
                 </div>
                 <div className={styles.box2}></div>
+                <div className={styles.box3}>
+                    <div className={styles.img1}></div>
+                    <div className={styles.img2}>
+                        <div className={styles.img22}></div>
+                        <p>“MEGA Lab is a collaboration between my good friend John Burns and me—we share a desire to protect and play in the ocean. We liked the idea that we could be surfers and skaters and still have advanced degrees.”</p>
+                    </div>
+                </div>
+                <div className={styles.box4}>
+                    <div className={styles.left}></div>
+                    <div className={styles.right}></div>
+                </div>
+                <div className={styles.box5}></div>
+
+                <div className={styles.box6}></div>
+
+                <div className={styles.box7}>
+                    <div className={styles.bo1}>
+                        <div className={styles.left1}></div>
+                        <div className={styles.right1}></div>
+                    </div>
+                    <div className={styles.bo2}></div>
+                </div>
         </div>
 
         )

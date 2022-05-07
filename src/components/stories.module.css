@@ -53,3 +53,97 @@
     border: 1px solid black;
     background-image: url(	https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img1.jpg);
 }
+.box3{
+    width: 1263.33px;
+    height: 885.42px;
+    border: 1px solid black;
+    display: flex;
+    gap: 65px;
+}
+.img1{
+    width: 644.29px;
+    height: 784.27px;
+    border: 1px solid black;
+    margin-top: 101px;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img2.jpg);
+}
+.img2{
+    width: 505.33px;
+    height: 674.33px;
+    border: 1px solid black;
+   
+}
+.img2 p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+.img22{
+    width: 505.33px;
+    height: 609.42px;
+    border: 1px solid black;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img3.jpg);
+}
+
+.box4{
+    width: 1263.33px;
+    height: 789.58px;
+    border: 1px solid black;
+    display: flex;
+}
+.left{
+    width: 631.67px;
+    height: 789.58px;
+    border: 1px solid black;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img4b.jpg);
+}
+.right{
+    width: 631.67px;
+    height: 789.58px;
+    border: 1px solid black;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img5.jpg);
+}
+
+.box5{
+    width: 1263.33px;
+    height: 776.42px;
+    border: 1px solid black; 
+    background-image: url(	https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img6.jpg);
+}
+
+.box6{
+    width: 1263.33px;
+    height: 530.98px;
+    border: 1px solid black;
+}
+
+.box7{
+    width: 1263.33px;
+    height: 2560.95px;
+    border: 1px solid black; 
+}
+.bo1{
+    width: 1263.33px;
+    height: 851.39px;
+    border: 1px solid black;
+    display: flex;
+    background-color: #f0bb66;
+    
+}
+.left1{
+    width: 631.67px;
+    height: 789.58px;
+    border: 1px solid blue;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img7.jpg);
+}
+.right1{
+    width: 631.67px;
+    height: 789.58px;
+    border: 1px solid blue;
+    background-image: url(https://www.jcrew.com/brand_creative/2022/202204-Apr/m-cliffkapono/v2/2022apr_0315_cliff_img8.jpg);
+}
+.bo2{
+    width: 1263.33px;
+    height: 1583.23px;
+    border: 1px solid black;
+}
