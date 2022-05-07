@@ -1,11 +1,21 @@
+import { useSelector } from "react-redux";
 import "./App.css";
-import ProductPage from "./pages/ProductPage";
+import ModalMain from "./components/ModalMain";
+import LoginModal from "./components/LoginModal";
+import SignUpModal from "./components/SignUpModal";
+import Index from "./Pages/Index";
 
 function App() {
+  const { isOpen } = useSelector((store) => store.modal);
+  const { isLoginOpen, isSignUpOpen } = useSelector((store) => store.login);
   return (
-    <>
-      <ProductPage />
-    </>
+    <div className="App">
+      {/* <Navbar /> */}
+      {isLoginOpen && <LoginModal />}
+      {isSignUpOpen && <SignUpModal />}
+      {isOpen && <ModalMain />}
+      <Index />
+    </div>
   );
 }
 
