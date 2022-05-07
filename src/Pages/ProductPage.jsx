@@ -141,7 +141,13 @@ const ProductPage = () => {
     };
     const dispatch = useDispatch();
     useEffect(() => {
-        // fetchData(dispatch);
+        document.title = "Men's Clothing | J.Crew";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
         dispatch(get_products());
         setAccordinas([...filters]);
     }, []);

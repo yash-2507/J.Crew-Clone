@@ -1,12 +1,17 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import styles from "../components/styles/Mens.module.css";
 
 export default function Mens() {
     useEffect(() => {
         document.title = "Men's Clothing | J.Crew";
+        // console.log(window.pageYOffset)
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
     }, []);
     return (
         <>

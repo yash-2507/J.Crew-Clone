@@ -55,6 +55,7 @@ const KidsProductPage = () => {
             key: "best",
         },
     ]);
+
     const { products_data, isLoading, isError, data, filters } = useSelector(
         (store) => store.kids
     );
@@ -141,6 +142,13 @@ const KidsProductPage = () => {
     };
     const dispatch = useDispatch();
     useEffect(() => {
+        document.title = "Kids Clothes: Boys & Girls | J.Crew";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
         dispatch(get_products());
         setAccordinas([...filters]);
     }, []);

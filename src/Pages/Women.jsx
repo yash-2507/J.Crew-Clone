@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import styles from "../components/styles/Women.module.css";
 
 export default function Women() {
     useEffect(() => {
         document.title = "Women's Clothing | J.Crew";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
     }, []);
     return (
         <>
