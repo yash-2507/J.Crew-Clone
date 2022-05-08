@@ -11,6 +11,7 @@ import SingleProduct from "./SingleProduct";
 import ProductPage from "./MensProduct/ProductPage";
 import { get_products } from "../features/Product/productSlice";
 import { useDispatch } from "react-redux";
+import Bag from "./Bag";
 
 export default function Index() {
   const dispatch = useDispatch();
@@ -29,6 +30,7 @@ export default function Index() {
         <Route exact path="/products/mens" element={<ProductPage />} />
         <Route exact path="/products/mens/:id" element={<SingleProduct />} />
         <Route exact path="/products/kids" element={<KidsProductPage />} />
+        <Route exact path="/cart" element={<Bag />} />
       </Routes>
       <Footer />
     </>
