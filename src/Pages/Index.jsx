@@ -16,6 +16,11 @@ import { useDispatch } from "react-redux";
 import { get_kids_products } from "../features/Kids/KidsSlice";
 import { get_products } from "../features/Product/productSlice";
 import { get_women_products } from "../features/Women/WomenSlice";
+import Story from "./Stories";
+import { SubdirectoryArrowLeft } from "@mui/icons-material";
+import { get_home_products } from "../features/Home/HomeSlice";
+import HomeProductPage from "./HomeProduct/HomePage";
+import SingleHome from "./HomeProduct/SingleHome";
 
 export default function Index() {
     const dispatch = useDispatch();
@@ -23,6 +28,7 @@ export default function Index() {
         dispatch(get_products());
         dispatch(get_kids_products());
         dispatch(get_women_products());
+        dispatch(get_home_products());
     }, []);
     return (
         <>
@@ -58,6 +64,17 @@ export default function Index() {
                     path="/products/women/:id"
                     element={<SingleWomen />}
                 />
+                <Route
+                    exact
+                    path="/products/home"
+                    element={<HomeProductPage />}
+                />
+                <Route
+                    exact
+                    path="/products/home/:id"
+                    element={<SingleHome />}
+                />
+                <Route exact path="/stories" element={<Story />} />
             </Routes>
             <Footer />
         </>

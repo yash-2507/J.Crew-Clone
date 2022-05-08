@@ -28,7 +28,7 @@ export default function Navbar() {
                     <Link to="/kids">
                         <h4>Kids</h4>
                     </Link>
-                    <Link to="/home">
+                    <Link to="/products/home">
                         <h4>Home</h4>
                     </Link>
                     <Link to="/stories">

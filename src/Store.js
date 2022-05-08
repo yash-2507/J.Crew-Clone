@@ -5,6 +5,7 @@ import AuthReducer from "./features/Auth/AuthSlice";
 import ProductReducer from "./features/Product/productSlice";
 import KidsReducer from "./features/Kids/KidsSlice";
 import WomenReducer from "./features/Women/WomenSlice";
+import HomeReducer from "./features/Home/HomeSlice";
 
 export const store = configureStore({
     reducer: {
@@ -14,5 +15,6 @@ export const store = configureStore({
         product: ProductReducer,
         kids: KidsReducer,
         women: WomenReducer,
+        home: HomeReducer,
     },
 });
