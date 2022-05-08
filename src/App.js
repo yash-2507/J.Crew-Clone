@@ -12,7 +12,6 @@ function App() {
     const { isLoginOpen, isSignUpOpen } = useSelector((store) => store.login);
     return (
         <div className="App">
-            {/* <Navbar /> */}
             {isLoginOpen && <LoginModal />}
             {isSignUpOpen && <SignUpModal />}
             {isOpen && <ModalMain />}
