@@ -17,7 +17,7 @@ import {
     upper_filter,
     change_filter,
     change_filter_2,
-} from "../features/Product/productSlice";
+} from "../../features/Product/productSlice";
 
 const ProductPage = () => {
     const [accordinas, setAccordinas] = useState([]);

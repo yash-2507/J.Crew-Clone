@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./ProductItem.module.css";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { useDispatch, useSelector } from "react-redux";
-import { change_variant_color } from "../features/Product/productSlice";
+import { change_variant_color } from "../../features/Product/productSlice";
 
 const ProductItem = ({ item }) => {
     const [rupee, setRupee] = useState(0);
@@ -21,7 +21,6 @@ const ProductItem = ({ item }) => {
                 })
             );
         });
-        // dispatch(handleChangeVariantColor(changeData));
         dispatch(change_variant_color(changeData));
     };
 
@@ -76,9 +75,6 @@ const ProductItem = ({ item }) => {
                             </div>
                         );
                     })}
-                    {/* {item.colors.map((el, index) => {
-            return <Color key={index} color={el} />;
-          })} */}
                 </div>
             </div>
         </div>

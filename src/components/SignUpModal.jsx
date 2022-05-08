@@ -14,10 +14,8 @@ export default function SignUpModal() {
     const { userMail, userPass, userLocation, regUsers } = useSelector(
         (store) => store.auth
     );
-    const { isSignUpOpen } = useSelector((store) => store.login);
 
     useEffect(() => {
-        // console.log(regUsers);
         if (regUsers) {
             localStorage.setItem("users", JSON.stringify(regUsers));
         }
