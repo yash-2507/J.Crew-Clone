@@ -23,7 +23,7 @@ const ProductModal = ({ item, tooggleModal }) => {
   const [vID, setVID] = useState(0);
   const [showAcc, setShowAcc] = useState(false);
   const { cartItems } = useSelector((state) => state.product);
-  console.log(cartItems);
+  // console.log(cartItems);
   const handleChangeColor = (variantID) => {
     // dispatch(handleChangeVariantColor(changeData));
     dispatch(
@@ -113,7 +113,7 @@ const ProductModal = ({ item, tooggleModal }) => {
     }
     setQuantity([...arr]);
     setVID(filterItem[0].id);
-    console.log(cartItems);
+    // console.log(cartItems);
   }, [item]);
 
   return (

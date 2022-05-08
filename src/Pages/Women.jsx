@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import styles from "../components/styles/Women.module.css";
 
 export default function Women() {
@@ -49,32 +50,40 @@ export default function Women() {
                     <h3>Shops, stories & more</h3>
                     <div className={styles.midImgWrap}>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img0.jpg"
-                                alt=""
-                            />
-                            <h4>Your dress destination</h4>
+                            <Link to="/products/women">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img0.jpg"
+                                    alt=""
+                                />
+                                <h4>Your dress destination</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img1.jpg"
-                                alt=""
-                            />
-                            <h4>Best in swim since 1983</h4>
+                            <Link to="/products/women">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img1.jpg"
+                                    alt=""
+                                />
+                                <h4>Best in swim since 1983</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img2.jpg"
-                                alt=""
-                            />
-                            <h4>New Arrivals</h4>
+                            <Link to="/products/women">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img2.jpg"
+                                    alt=""
+                                />
+                                <h4>New Arrivals</h4>
+                            </Link>
                         </div>
                         <div className={styles.midImg}>
-                            <img
-                                src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img3.jpg"
-                                alt=""
-                            />
-                            <h4>The Linen Shop</h4>
+                            <Link to="/products/women">
+                                <img
+                                    src="https://www.jcrew.com/brand_creative/2022/202205-May/flyout/2022may_0506_flyouts_w_img3.jpg"
+                                    alt=""
+                                />
+                                <h4>The Linen Shop</h4>
+                            </Link>
                         </div>
                     </div>
                 </div>

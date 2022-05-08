@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import styles from "./ProductPage.module.css";
+import styles from "./WomenPage.module.css";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import ProductItem from "./ProductItem";
 import { useDispatch, useSelector } from "react-redux";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import CircularProgress from "@mui/material/CircularProgress";
@@ -16,9 +15,10 @@ import {
     upper_filter,
     change_filter,
     change_filter_2,
-} from "../../features/Product/productSlice";
+} from "../../features/Women/WomenSlice";
+import WomenItem from "./WomenItem";
 
-const ProductPage = () => {
+const WomenProductPage = () => {
     const [accordinas, setAccordinas] = useState([]);
     const [showFilters, setShowFilters] = useState(true);
     const [upperFilters, setUpperFilters] = useState(false);
@@ -54,13 +54,29 @@ const ProductPage = () => {
             key: "best",
         },
     ]);
+
+    useEffect(() => {
+        document.title = "Women's Collection";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
+    }, []);
+
     const { products_data, isLoading, isError, data, filters } = useSelector(
-        (store) => store.product
+        (store) => store.women
     );
     const handleAccordian = (index) => {
         dispatch(change_filter(index));
-        // filters[index].status = !filters[index].status;
+        setAccordinas([...filters]);
     };
+
+    useEffect(() => {
+        setAccordinas([...filters]);
+    }, [filters]);
+
     useEffect(() => {
         let filterData = [...data];
         let keys = [];
@@ -105,20 +121,6 @@ const ProductPage = () => {
         // setAccordinas([...filters]);
     };
 
-    useEffect(() => {
-        setAccordinas([...filters]);
-    }, [filters]);
-
-    useEffect(() => {
-        document.title = "Men's Collection";
-        if (window.pageYOffset > 300) {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-            });
-        }
-    }, []);
-
     const handleUpperFilters = (value) => {
         let key = value.key;
         upperFilterProperties.map((item) =>
@@ -128,31 +130,37 @@ const ProductPage = () => {
         if (key === "htl") {
             let sortData = [...data];
             sortData.sort((a, b) => b.price - a.price);
-            // dispatch(handleUpperFilter(sortData));
             dispatch(upper_filter(sortData));
         } else if (key === "lth") {
             let sortData = [...data];
             sortData.sort((a, b) => a.price - b.price);
-            // dispatch(handleUpperFilter(sortData));
             dispatch(upper_filter(sortData));
         } else if (key === "f") {
-            // dispatch(handleUpperFilter(data));
             dispatch(upper_filter(data));
         } else if (key === "best") {
             let filterData = data.filter((item) => {
                 return item.Trending === "best_seller";
             });
-            // dispatch(handleUpperFilter(filterData));
             dispatch(upper_filter(filterData));
         } else if (key === "top") {
             let filterData = data.filter((item) => {
                 return item.Trending === "top_rated";
             });
-            // dispatch(handleUpperFilter(filterData));
             dispatch(upper_filter(filterData));
         }
     };
     const dispatch = useDispatch();
+    useEffect(() => {
+        document.title = "Kids Clothes: Boys & Girls | J.Crew";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
+        // dispatch(get_products());
+        setAccordinas([...filters]);
+    }, []);
     return (
         <>
             <div className={styles.products_wrapper}>
@@ -338,10 +346,7 @@ const ProductPage = () => {
                             ) : (
                                 products_data?.map((item) => {
                                     return (
-                                        <ProductItem
-                                            key={item.id}
-                                            item={item}
-                                        />
+                                        <WomenItem key={item.id} item={item} />
                                     );
                                 })
                             )}
@@ -353,4 +358,4 @@ const ProductPage = () => {
     );
 };
 
-export default ProductPage;
+export default WomenProductPage;

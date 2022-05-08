@@ -9,16 +9,21 @@ import Women from "./Women";
 import KidsProductPage from "./KidsProduct/KidsProductPage";
 import SingleProduct from "./SingleProduct";
 import ProductPage from "./MensProduct/ProductPage";
-import { get_products } from "../features/Product/productSlice";
+import SingleKidsProduct from "./KidsProduct/SingleKidsProduct";
+import WomenProductPage from "./WomenProduct/WomenPage";
+import SingleWomen from "./WomenProduct/SingleWomen";
 import { useDispatch } from "react-redux";
-import Bag from "./Bag";
+import { get_kids_products } from "../features/Kids/KidsSlice";
+import { get_products } from "../features/Product/productSlice";
+import { get_women_products } from "../features/Women/WomenSlice";
 
 export default function Index() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(get_products());
+    dispatch(get_kids_products());
+    dispatch(get_women_products());
   }, []);
-
   return (
     <>
       <Navbar />
@@ -30,7 +35,13 @@ export default function Index() {
         <Route exact path="/products/mens" element={<ProductPage />} />
         <Route exact path="/products/mens/:id" element={<SingleProduct />} />
         <Route exact path="/products/kids" element={<KidsProductPage />} />
-        <Route exact path="/cart" element={<Bag />} />
+        <Route
+          exact
+          path="/products/kids/:id"
+          element={<SingleKidsProduct />}
+        />
+        <Route exact path="/products/women" element={<WomenProductPage />} />
+        <Route exact path="/products/women/:id" element={<SingleWomen />} />
       </Routes>
       <Footer />
     </>

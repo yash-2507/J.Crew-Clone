@@ -11,7 +11,7 @@ import Alert from "@mui/material/Alert";
 import AlertTitle from "@mui/material/AlertTitle";
 import Stack from "@mui/material/Stack";
 import {
-    get_products,
+    get_kids_products,
     update_data_with_filter,
     upper_filter,
     change_filter,
@@ -149,7 +149,7 @@ const KidsProductPage = () => {
                 behavior: "smooth",
             });
         }
-        dispatch(get_products());
+        // dispatch(get_kids_products());
         setAccordinas([...filters]);
     }, []);
     return (

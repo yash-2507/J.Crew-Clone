@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import SliderBox from "../components/SliderBox";
+import SliderBox from "../../components/SliderBox";
 import {
     change_variant_color,
     change_variant_size,
     get_single_product,
     update_cart_items,
     update_quantity,
-} from "../features/Product/productSlice";
-import styles from "./SingleProduct.module.css";
+} from "../../features/Women/WomenSlice";
+import styles from "./SingleWomen.module.css";
 import { v4 as uuidv4 } from "uuid";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 
-const SingleProduct = () => {
+const SingleWomen = () => {
     const { id } = useParams();
     const [currentProduct, setCurrentProduct] = useState({});
     const [currentVariant, setCurrentVariant] = useState({});
@@ -26,7 +26,7 @@ const SingleProduct = () => {
 
     const dispatch = useDispatch();
     const { singleProduct, products_data } = useSelector(
-        (state) => state.product
+        (state) => state.women
     );
 
     useEffect(() => {
@@ -274,4 +274,4 @@ const SingleProduct = () => {
     );
 };
 
-export default SingleProduct;
+export default SingleWomen;
