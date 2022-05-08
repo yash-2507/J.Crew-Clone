@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { kidsData } from "../../assets/KidsData";
+import { womenData } from "../../assets/WomenData";
 
 const initialState = {
     data: [],
@@ -17,7 +17,7 @@ const initialState = {
     singleProduct: {},
 };
 
-const kidsSlice = createSlice({
+const womenSlice = createSlice({
     name: "product",
     initialState,
     reducers: {
@@ -28,7 +28,7 @@ const kidsSlice = createSlice({
             };
         },
         get_products: (state) => {
-            const all_data = kidsData.kids_products.data;
+            const all_data = womenData.women_products.data;
 
             let len = all_data.length;
             return {
@@ -38,7 +38,7 @@ const kidsSlice = createSlice({
                 isLoading: false,
                 isError: false,
                 totalProduct: len,
-                filters: [...kidsData.kids_products.filters],
+                filters: [...womenData.women_products.filters],
                 page: 1,
                 totalPages: Math.ceil(len / state.perPageData),
             };
@@ -138,6 +138,6 @@ export const {
     update_quantity,
     update_cart_items,
     get_single_product,
-} = kidsSlice.actions;
+} = womenSlice.actions;
 
-export default kidsSlice.reducer;
+export default womenSlice.reducer;

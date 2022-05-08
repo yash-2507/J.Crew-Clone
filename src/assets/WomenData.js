@@ -1,5 +1,5 @@
 export const womenData = {
-    kids_products: {
+    women_products: {
         filters: [
             {
                 title: "Category",
@@ -8,27 +8,27 @@ export const womenData = {
                 options: [
                     {
                         id: "c1",
-                        value: "T-Shirt",
+                        value: "Jewellery",
                         status: false,
-                        key: "T-shirt",
+                        key: "JEWELRY",
                     },
                     {
                         id: "c2",
-                        value: "Shirt",
+                        value: "Jackets",
                         status: false,
-                        key: "Shirt",
+                        key: "JACKETS",
                     },
                     {
                         id: "c3",
-                        value: "Shorts",
+                        value: "Pajamas",
                         status: false,
-                        key: "Shorts",
+                        key: "PAJAMAS",
                     },
                     {
                         id: "c4",
-                        value: "Pants",
+                        value: "Shoes",
                         status: false,
-                        key: "Pants",
+                        key: "SHOES",
                     },
                 ],
             },
@@ -862,7 +862,7 @@ export const womenData = {
             },
             {
                 id: 14,
-                category: "SHOE",
+                category: "SHOES",
                 quantity: 10,
                 sizes: [
                     {
@@ -912,7 +912,7 @@ export const womenData = {
             },
             {
                 id: 15,
-                category: "SHOE",
+                category: "SHOES",
                 quantity: 10,
                 sizes: [
                     {
@@ -966,7 +966,7 @@ export const womenData = {
             },
             {
                 id: 16,
-                category: "SHOE",
+                category: "SHOES",
                 quantity: 10,
                 sizes: [
                     {
