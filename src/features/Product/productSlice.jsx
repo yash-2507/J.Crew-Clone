@@ -109,7 +109,27 @@ const productSlice = createSlice({
         );
       });
     },
-    update_cart_items: (state, { payload }) => {},
+    update_cart_items: (state, { payload }) => {
+      // if (state.cartItems.length > 0) {
+      //   let flag = true;
+      //   let changedData = state.cartItems;
+      //   console.log(changedData);
+      //   changedData.map((el) => {
+      //     if (
+      //       el.id === payload.item.id &&
+      //       el.variant.id === payload.variant.id
+      //     ) {
+      //       return (el.quantity = el.quantity + payload.quantity);
+      //     }
+      //   });
+      //   // flag = false;
+      //   if (flag) {
+      //     state.cartItems = [...state.cartItems, payload.item];
+      //   }
+      // } else {
+      state.cartItems = [...state.cartItems, payload.item];
+      // }
+    },
     change_filter: (state, { payload }) => {
       state.filters[payload].status = !state.filters[payload].status;
     },

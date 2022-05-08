@@ -23,12 +23,44 @@ const ProductModal = ({ item, tooggleModal }) => {
   const [vID, setVID] = useState(0);
   const [showAcc, setShowAcc] = useState(false);
   const { cartItems } = useSelector((state) => state.product);
+  console.log(cartItems);
   const handleChangeColor = (variantID) => {
     // dispatch(handleChangeVariantColor(changeData));
     dispatch(
       change_variant_color({
         id: item.id,
         variantID,
+      })
+    );
+  };
+
+  const handleCart = () => {
+    let currentSize = item.sizes.filter((el) => {
+      return el.status && el;
+    });
+    let obj = {
+      id: item.id,
+      quantity: Number(q),
+      category: item.category,
+      size: currentSize[0],
+      Trending: item.Trending,
+      brand: item.brand,
+      price: item.price,
+      title: item.title,
+      variant: currentVariant,
+      desc: item.desc,
+    };
+    // console.log(obj);
+    dispatch(
+      update_cart_items({
+        item: obj,
+      })
+    );
+    dispatch(
+      update_quantity({
+        id: item.id,
+        variantID: vID,
+        quantity: q,
       })
     );
   };
@@ -83,28 +115,6 @@ const ProductModal = ({ item, tooggleModal }) => {
     setVID(filterItem[0].id);
     console.log(cartItems);
   }, [item]);
-
-  const handleCart = () => {
-    // let cartItem = { ...item };
-    // cartItem.variant.map((el) => {
-    //   if (el.status) {
-    //     return (el.cartQuantity = q);
-    //   }
-    // });
-    // console.log(q);
-    dispatch(
-      update_cart_items({
-        item,
-      })
-    );
-    // dispatch(
-    //   update_quantity({
-    //     id: item.id,
-    //     variantID: vID,
-    //     quantity: q,
-    //   })
-    // );
-  };
 
   return (
     <div className={styles.fixed}>
@@ -168,7 +178,7 @@ const ProductModal = ({ item, tooggleModal }) => {
                   return (
                     <div
                       onClick={() => handleChangeSize(el.id)}
-                      id={el.id}
+                      key={el.id}
                       className={`${styles.size} ${
                         el.status && styles.active_size
                       } `}

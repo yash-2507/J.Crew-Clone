@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
 import MainPage from "../components/MainPage";
@@ -9,8 +9,15 @@ import Women from "./Women";
 import KidsProductPage from "./KidsProduct/KidsProductPage";
 import SingleProduct from "./SingleProduct";
 import ProductPage from "./MensProduct/ProductPage";
+import { get_products } from "../features/Product/productSlice";
+import { useDispatch } from "react-redux";
 
 export default function Index() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(get_products());
+  }, []);
+
   return (
     <>
       <Navbar />

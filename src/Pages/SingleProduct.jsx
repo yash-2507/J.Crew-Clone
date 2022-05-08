@@ -16,70 +16,79 @@ import AddIcon from "@mui/icons-material/Add";
 
 const SingleProduct = () => {
   const { id } = useParams();
-  const [currentProduct, setCurrentProduct] = useState({});
   const [currentVariant, setCurrentVariant] = useState({});
   const [rupee, setRupee] = useState(0);
   const [quantity, setQuantity] = useState([]);
   const [vID, setVID] = useState(0);
-  const [q, setQ] = useState(0);
+  const [q, setQ] = useState(1);
   const [showAcc, setShowAcc] = useState(false);
 
   const dispatch = useDispatch();
-  const { singleProduct, products_data } = useSelector(
+  const { singleProduct, cartItems, products_data } = useSelector(
     (state) => state.product
   );
+  const [currentProduct, setCurrentProduct] = useState({});
+  console.log(cartItems);
 
   useEffect(() => {
     let p_data = [...products_data];
-    let sProduct = p_data.filter((item) => {
-      if (item.id == id) {
-        return item;
-      }
-    });
-    console.log(sProduct);
-    setCurrentProduct(sProduct[0]);
-
-    let filterCurrentVariant = sProduct[0].variant.filter((el) => {
-      return el.status && el;
-    });
-    setCurrentVariant({ ...filterCurrentVariant[0] });
-
-    const handleIndianRupees = () => {
-      let x = sProduct[0].price;
-      x = x.toString();
-      let lastThree = x.substring(x.length - 3);
-      let otherNumbers = x.substring(0, x.length - 3);
-      if (otherNumbers !== "") lastThree = "," + lastThree;
-      let res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
-      setRupee(res);
-    };
-    handleIndianRupees();
-    let arr = [];
-    for (let i = 0; i < filterCurrentVariant[0].quantity; i++) {
-      arr.push({
-        id: uuidv4(),
-        value: i + 1,
+    if (p_data.length > 0) {
+      let sProduct = p_data.filter((item) => {
+        if (item.id == id) {
+          return item;
+        }
       });
+      setCurrentProduct(sProduct[0]);
+      let filterCurrentVariant = sProduct[0].variant.filter((el) => {
+        return el.status && el;
+      });
+      setCurrentVariant({ ...filterCurrentVariant[0] });
+
+      const handleIndianRupees = () => {
+        let x = sProduct[0].price;
+        x = x.toString();
+        let lastThree = x.substring(x.length - 3);
+        let otherNumbers = x.substring(0, x.length - 3);
+        if (otherNumbers !== "") lastThree = "," + lastThree;
+        let res =
+          otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+        setRupee(res);
+      };
+      handleIndianRupees();
+      let arr = [];
+      for (let i = 0; i < filterCurrentVariant[0].quantity; i++) {
+        arr.push({
+          id: uuidv4(),
+          value: i + 1,
+        });
+      }
+      setQuantity([...arr]);
+      setVID(filterCurrentVariant[0].id);
     }
-    setQuantity([...arr]);
-    setVID(filterCurrentVariant[0].id);
+
     // console.log("hi", id);
   }, [id, products_data]);
 
   const handleCart = () => {
-    // let cartItem = { ...item };
-    // cartItem.variant.map((el) => {
-    //   if (el.status) {
-    //     return (el.cartQuantity = q);
-    //   }
-    // });
-    console.log(q);
+    let currentSize = currentProduct.sizes.filter((el) => {
+      return el.status && el;
+    });
+    let obj = {
+      id: currentProduct.id,
+      quantity: Number(q),
+      category: currentProduct.category,
+      size: currentSize[0],
+      Trending: currentProduct.Trending,
+      brand: currentProduct.brand,
+      price: currentProduct.price,
+      title: currentProduct.title,
+      variant: currentVariant,
+      desc: currentProduct.desc,
+    };
+    // console.log(obj);
     dispatch(
       update_cart_items({
-        id: currentProduct.id,
-        quantity: Number(q),
-        item: currentProduct,
-        variantID: vID,
+        item: obj,
       })
     );
     dispatch(
