@@ -55,21 +55,21 @@ const KidsProductPage = () => {
             key: "best",
         },
     ]);
+
     const { products_data, isLoading, isError, data, filters } = useSelector(
         (store) => store.kids
     );
     const handleAccordian = (index) => {
         dispatch(change_filter(index));
-        // filters[index].status = !filters[index].status;
         setAccordinas([...filters]);
     };
 
-    const handleFilterChange = (key, mainIndex, primaryIndex) => {
-        let filterData = [...data];
-        // filters[mainIndex].options[primaryIndex].status =
-        //     !filters[mainIndex].options[primaryIndex].status;
-        dispatch(change_filter_2({ mainIndex, primaryIndex }));
+    useEffect(() => {
         setAccordinas([...filters]);
+    }, [filters]);
+
+    useEffect(() => {
+        let filterData = [...data];
         let keys = [];
         accordinas.map((item) => {
             return item.options.map((el) => {
@@ -104,8 +104,12 @@ const KidsProductPage = () => {
             resData = [...data];
         }
 
-        // dispatch(handleFilterData(resData));
         dispatch(update_data_with_filter(resData));
+    }, [accordinas]);
+
+    const handleFilterChange = (key, mainIndex, primaryIndex) => {
+        dispatch(change_filter_2({ mainIndex, primaryIndex }));
+        // setAccordinas([...filters]);
     };
 
     const handleUpperFilters = (value) => {
@@ -117,33 +121,34 @@ const KidsProductPage = () => {
         if (key === "htl") {
             let sortData = [...data];
             sortData.sort((a, b) => b.price - a.price);
-            // dispatch(handleUpperFilter(sortData));
             dispatch(upper_filter(sortData));
         } else if (key === "lth") {
             let sortData = [...data];
             sortData.sort((a, b) => a.price - b.price);
-            // dispatch(handleUpperFilter(sortData));
             dispatch(upper_filter(sortData));
         } else if (key === "f") {
-            // dispatch(handleUpperFilter(data));
             dispatch(upper_filter(data));
         } else if (key === "best") {
             let filterData = data.filter((item) => {
                 return item.Trending === "best_seller";
             });
-            // dispatch(handleUpperFilter(filterData));
             dispatch(upper_filter(filterData));
         } else if (key === "top") {
             let filterData = data.filter((item) => {
                 return item.Trending === "top_rated";
             });
-            // dispatch(handleUpperFilter(filterData));
             dispatch(upper_filter(filterData));
         }
     };
     const dispatch = useDispatch();
     useEffect(() => {
-        // fetchData(dispatch);
+        document.title = "Kids Clothes: Boys & Girls | J.Crew";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
         dispatch(get_products());
         setAccordinas([...filters]);
     }, []);

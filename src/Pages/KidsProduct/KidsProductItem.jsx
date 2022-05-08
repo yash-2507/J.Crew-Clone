@@ -7,7 +7,7 @@ import { change_variant_color } from "../../features/Kids/KidsSlice";
 const KidsProductItem = ({ item }) => {
     const [rupee, setRupee] = useState(0);
     const [showProductPopup, setShowProductPopup] = useState(false);
-    const { products_data, data } = useSelector((store) => store.product);
+    const { products_data, data } = useSelector((store) => store.kids);
     const dispatch = useDispatch();
     const handleChangeColor = (variantID) => {
         let changeData = [...products_data];
@@ -21,7 +21,6 @@ const KidsProductItem = ({ item }) => {
                 })
             );
         });
-        // dispatch(handleChangeVariantColor(changeData));
         dispatch(change_variant_color(changeData));
     };
 

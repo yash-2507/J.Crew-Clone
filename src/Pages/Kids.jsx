@@ -1,12 +1,16 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import styles from "../components/styles/Kids.module.css";
 
 export default function Kids() {
     useEffect(() => {
         document.title = "Kids Clothes: Boys & Girls | J.Crew";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
     }, []);
     return (
         <>

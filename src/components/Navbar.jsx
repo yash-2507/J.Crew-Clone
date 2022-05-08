@@ -26,12 +26,6 @@ export default function Navbar() {
                     <Link to="/kids">
                         <h4>Kids</h4>
                     </Link>
-                    <Link to="/swim">
-                        <h4>Swim</h4>
-                    </Link>
-                    <Link to="/chasmere">
-                        <h4>Chasmere</h4>
-                    </Link>
                     <Link to="/home">
                         <h4>Home</h4>
                     </Link>

@@ -21,6 +21,7 @@ import {
 import { Link } from "react-router-dom";
 
 const ProductPage = () => {
+  const [accordinas, setAccordinas] = useState([]);
   const [showFilters, setShowFilters] = useState(true);
   const [upperFilters, setUpperFilters] = useState(false);
   const [upperFilterProperties, setUpperFilterProperties] = useState([
@@ -62,29 +63,19 @@ const ProductPage = () => {
     dispatch(change_filter(index));
     // filters[index].status = !filters[index].status;
   };
-
-  const handleFilterChange = (key, mainIndex, primaryIndex) => {
-    // console.log("first");
+  useEffect(() => {
     let filterData = [...data];
-    // filters[mainIndex].options[primaryIndex].status =
-    //     !filters[mainIndex].options[primaryIndex].status;
-    dispatch(change_filter_2({ mainIndex, primaryIndex }));
-    console.log(filters);
-    // setAccordinas([...filters]);
     let keys = [];
-    filters.map((item) => {
+    accordinas.map((item) => {
       return item.options.map((el) => {
-        // console.log(el);
         return el.status && keys.push({ title: item.title, keys: el.key });
       });
     });
     let resData = [];
-
     if (keys.length > 0) {
       filterData.map((item) => {
         return keys.map((el) => {
           if (el.title === "Category") {
-            // console.log(el);
             return item.category === el.keys && resData.push(item);
           } else if (el.title === "Size") {
             return item.sizes.map((s) => {
@@ -102,18 +93,21 @@ const ProductPage = () => {
           }
         });
       });
-      console.log(resData);
     } else {
       resData = [...data];
     }
 
-    // dispatch(handleFilterData(resData));
     dispatch(update_data_with_filter(resData));
+  }, [accordinas]);
+
+  const handleFilterChange = (key, mainIndex, primaryIndex) => {
+    dispatch(change_filter_2({ mainIndex, primaryIndex }));
+    // setAccordinas([...filters]);
   };
 
-  //   useEffect(() => {
-  //     setAccordinas([...filters]);
-  //   }, [filters]);
+  useEffect(() => {
+    setAccordinas([...filters]);
+  }, [filters]);
 
   const handleUpperFilters = (value) => {
     let key = value.key;
@@ -214,41 +208,6 @@ const ProductPage = () => {
                   </div>
                 )}
               </div>
-              {/* <div className={styles.head_info_right}>
-                <div className={styles.page_dropdown}>
-                  <div className={styles.filter_btn}>
-                    <div className={styles.page_btn_left}>
-                      <p className={styles.current_page}>1</p>
-                    </div>
-                    <div className={styles.page_btn_right}>
-                      <ArrowDropUpIcon />
-                    </div>
-                  </div>
-                  <div className={styles.page_dropdown_menu}>
-                    <div className={styles.page_item}>
-                      <p>1</p>
-                    </div>
-                    <div className={styles.page_item}>
-                      <p>2</p>
-                    </div>
-                    <div className={styles.page_item}>
-                      <p>3</p>
-                    </div>
-                    <div className={styles.page_item}>
-                      <p>4</p>
-                    </div>
-                    <div className={styles.page_item}>
-                      <p>5</p>
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.of_page}>
-                  <p>Of 6</p>
-                </div>
-                <div className={styles.result}>
-                  <p>View 120</p>
-                </div>
-              </div> */}
             </div>
           </div>
           <div className={styles.products}>

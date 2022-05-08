@@ -6,9 +6,9 @@ import Navbar from "../components/Navbar";
 import Kids from "./Kids";
 import Mens from "./Mens";
 import Women from "./Women";
-import ProductPage from "./ProductPage";
 import KidsProductPage from "./KidsProduct/KidsProductPage";
 import SingleProduct from "./SingleProduct";
+import ProductPage from "./ProductPage";
 
 export default function Index() {
   return (

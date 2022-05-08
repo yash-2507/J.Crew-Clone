@@ -80,9 +80,6 @@ const ProductItem = ({ item }) => {
                 </div>
               );
             })}
-            {/* {item.colors.map((el, index) => {
-            return <Color key={index} color={el} />;
-          })} */}
           </div>
         </div>
       </div>

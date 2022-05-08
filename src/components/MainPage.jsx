@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./styles/MainPage.module.css";
 
 export default function MainPage() {
+    const navigate = useNavigate();
+    useEffect(() => {
+        document.title = "J.Crew: Clothes, Shoes & Accessories";
+        if (window.pageYOffset > 300) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        }
+    }, []);
     return (
         <div className={styles.mainParent}>
             <div className={styles.MainPageTop}>
@@ -99,7 +110,9 @@ export default function MainPage() {
                         <h3 style={{ fontSize: 20, fontWeight: 400 }}>
                             Meet the
                         </h3>
-                        <h1 style={{ fontSize: 40 }}>Cotton-linen beach sweater</h1>
+                        <h1 style={{ fontSize: 40 }}>
+                            Cotton-linen beach sweater
+                        </h1>
                         <h4 style={{ textDecoration: "underline" }}>
                             Shop 5 shades
                         </h4>
@@ -112,16 +125,28 @@ export default function MainPage() {
                         Shop New Arrivals
                     </div>
                     <div className={styles.navigationBtnWrap}>
-                        <button className={styles.navigationBtn}>
+                        <button
+                            className={styles.navigationBtn}
+                            onClick={() => navigate("/women")}
+                        >
                             Shop Women
                         </button>
-                        <button className={styles.navigationBtn}>
+                        <button
+                            className={styles.navigationBtn}
+                            onClick={() => navigate("/mens")}
+                        >
                             Shop Men
                         </button>
-                        <button className={styles.navigationBtn}>
+                        <button
+                            className={styles.navigationBtn}
+                            onClick={() => navigate("/kids")}
+                        >
                             Shop Boys
                         </button>
-                        <button className={styles.navigationBtn}>
+                        <button
+                            className={styles.navigationBtn}
+                            onClick={() => navigate("/kids")}
+                        >
                             Shop Girls
                         </button>
                     </div>
