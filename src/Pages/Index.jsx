@@ -21,6 +21,7 @@ import { SubdirectoryArrowLeft } from "@mui/icons-material";
 import { get_home_products } from "../features/Home/HomeSlice";
 import HomeProductPage from "./HomeProduct/HomePage";
 import SingleHome from "./HomeProduct/SingleHome";
+import CheckOut from "./CheckOut";
 
 export default function Index() {
     const dispatch = useDispatch();
@@ -75,7 +76,9 @@ export default function Index() {
                     element={<SingleHome />}
                 />
                 <Route exact path="/stories" element={<Story />} />
+                <Route exact path="/checkOut" element={<CheckOut />} />
             </Routes>
+
             <Footer />
         </>
     );

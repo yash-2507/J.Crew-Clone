@@ -6,7 +6,6 @@ import SignUpModal from "./components/SignUpModal";
 import Index from "./Pages/Index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CheckOut from "./Pages/CheckOut";
 
 function App() {
     const { isOpen } = useSelector((store) => store.modal);
@@ -17,8 +16,7 @@ function App() {
             {isLoginOpen && <LoginModal />}
             {isSignUpOpen && <SignUpModal />}
             {isOpen && <ModalMain />}
-            {/* <Index /> */}
-            <CheckOut />
+            <Index />
         </div>
     );
 }
