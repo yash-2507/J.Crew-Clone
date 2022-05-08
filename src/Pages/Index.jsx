@@ -22,6 +22,7 @@ import { get_home_products } from "../features/Home/HomeSlice";
 import HomeProductPage from "./HomeProduct/HomePage";
 import SingleHome from "./HomeProduct/SingleHome";
 import CheckOut from "./CheckOut";
+import FinalPayment from "./FinalPayment";
 
 export default function Index() {
     const dispatch = useDispatch();
@@ -77,6 +78,11 @@ export default function Index() {
                 />
                 <Route exact path="/stories" element={<Story />} />
                 <Route exact path="/checkOut" element={<CheckOut />} />
+                <Route
+                    exact
+                    path="/checkOut/payment"
+                    element={<FinalPayment />}
+                />
             </Routes>
 
             <Footer />
