@@ -8,7 +8,7 @@ import Mens from "./Mens";
 import Women from "./Women";
 import KidsProductPage from "./KidsProduct/KidsProductPage";
 import SingleProduct from "./SingleProduct";
-import ProductPage from "./ProductPage";
+import ProductPage from "./MensProduct/ProductPage";
 
 export default function Index() {
   return (

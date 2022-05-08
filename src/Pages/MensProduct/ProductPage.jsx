@@ -17,8 +17,7 @@ import {
   upper_filter,
   change_filter,
   change_filter_2,
-} from "../features/Product/productSlice";
-import { Link } from "react-router-dom";
+} from "../../features/Product/productSlice";
 
 const ProductPage = () => {
   const [accordinas, setAccordinas] = useState([]);
@@ -108,6 +107,16 @@ const ProductPage = () => {
   useEffect(() => {
     setAccordinas([...filters]);
   }, [filters]);
+
+  useEffect(() => {
+    document.title = "Men's Collection";
+    if (window.pageYOffset > 300) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  }, []);
 
   const handleUpperFilters = (value) => {
     let key = value.key;

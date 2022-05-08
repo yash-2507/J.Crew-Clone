@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import styles from "./ProductItem.module.css";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { useDispatch, useSelector } from "react-redux";
-import ProductModal from "../components/ProductModal";
-import { change_variant_color } from "../features/Product/productSlice";
+import ProductModal from "../../components/ProductModal";
+import { change_variant_color } from "../../features/Product/productSlice";
 import { Link } from "react-router-dom";
 
 const ProductItem = ({ item }) => {
