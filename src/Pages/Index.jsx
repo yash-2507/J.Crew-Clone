@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
 import MainPage from "../components/MainPage";
@@ -12,8 +12,18 @@ import ProductPage from "./MensProduct/ProductPage";
 import SingleKidsProduct from "./KidsProduct/SingleKidsProduct";
 import WomenProductPage from "./WomenProduct/WomenPage";
 import SingleWomen from "./WomenProduct/SingleWomen";
+import { useDispatch } from "react-redux";
+import { get_kids_products } from "../features/Kids/KidsSlice";
+import { get_products } from "../features/Product/productSlice";
+import { get_women_products } from "../features/Women/WomenSlice";
 
 export default function Index() {
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(get_products());
+        dispatch(get_kids_products());
+        dispatch(get_women_products());
+    }, []);
     return (
         <>
             <Navbar />

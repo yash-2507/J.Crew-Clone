@@ -156,6 +156,7 @@ export const kidsData = {
                         id: 11,
                         color: "Brown",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BE522_WX3716?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -206,6 +207,7 @@ export const kidsData = {
                         id: 21,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/AJ730_DM4143_d1?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -264,6 +266,7 @@ export const kidsData = {
                         id: 31,
                         color: "white",
                         status: false,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH184_YD1212_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -288,6 +291,7 @@ export const kidsData = {
                         id: 32,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH184_YD1211?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -304,6 +308,7 @@ export const kidsData = {
                         id: 33,
                         color: "Orange",
                         status: false,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH184_WT0002?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -354,6 +359,7 @@ export const kidsData = {
                         id: 41,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BA081_DM2237?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -412,6 +418,7 @@ export const kidsData = {
                         id: 51,
                         color: "Light Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH295_KF4548?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -458,6 +465,7 @@ export const kidsData = {
                         id: 61,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH296_KF4817_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -516,6 +524,7 @@ export const kidsData = {
                         id: 71,
                         color: "brown",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH827_NA5944_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -540,6 +549,7 @@ export const kidsData = {
                         id: 72,
                         color: "white",
                         status: false,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH827_BL8133?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -590,6 +600,7 @@ export const kidsData = {
                         id: 81,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BE930_KF0826_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -648,6 +659,7 @@ export const kidsData = {
                         id: 91,
                         color: "Yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BE682_BL9164?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -694,6 +706,7 @@ export const kidsData = {
                         id: 1001,
                         color: "White",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH902_WY7403?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -744,6 +757,7 @@ export const kidsData = {
                         id: 1101,
                         color: "golden",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH355_EE2074?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -794,6 +808,7 @@ export const kidsData = {
                         id: 1201,
                         color: "Green",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF475_PP2923?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -840,6 +855,7 @@ export const kidsData = {
                         id: 1301,
                         color: "Red",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/AV479_EB6730?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -898,6 +914,7 @@ export const kidsData = {
                         id: 1401,
                         color: "Black",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF020_EE2330?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -948,6 +965,7 @@ export const kidsData = {
                         id: 1501,
                         color: "Multi",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BE679_KF3785?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1002,6 +1020,7 @@ export const kidsData = {
                         id: 1601,
                         color: "Yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/AV478_WY7493?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1056,6 +1075,7 @@ export const kidsData = {
                         id: 1701,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH165_KF3847?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1114,6 +1134,7 @@ export const kidsData = {
                         id: 1801,
                         color: "White",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH165_PT1449?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1164,6 +1185,7 @@ export const kidsData = {
                         id: 1901,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BC668_KF3374?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1218,6 +1240,7 @@ export const kidsData = {
                         id: 2001,
                         color: "Yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH165_PT1580?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {

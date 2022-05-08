@@ -27,7 +27,7 @@ const kidsSlice = createSlice({
                 isLoading: true,
             };
         },
-        get_products: (state) => {
+        get_kids_products: (state) => {
             const all_data = kidsData.kids_products.data;
 
             let len = all_data.length;
@@ -127,7 +127,7 @@ const kidsSlice = createSlice({
 
 export const {
     is_loading,
-    get_products,
+    get_kids_products,
     is_error,
     upper_filter,
     update_data_with_filter,

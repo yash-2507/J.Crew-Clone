@@ -27,7 +27,7 @@ const womenSlice = createSlice({
                 isLoading: true,
             };
         },
-        get_products: (state) => {
+        get_women_products: (state) => {
             const all_data = womenData.women_products.data;
 
             let len = all_data.length;
@@ -127,7 +127,7 @@ const womenSlice = createSlice({
 
 export const {
     is_loading,
-    get_products,
+    get_women_products,
     is_error,
     upper_filter,
     update_data_with_filter,

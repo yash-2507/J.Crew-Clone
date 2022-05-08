@@ -156,6 +156,7 @@ export const womenData = {
                         id: 11,
                         color: "Brown",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BI323_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -206,6 +207,7 @@ export const womenData = {
                         id: 21,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BG668_PK5352?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -256,6 +258,7 @@ export const womenData = {
                         id: 31,
                         color: "white",
                         status: false,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BB543_GR7637_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -276,6 +279,7 @@ export const womenData = {
                         id: 32,
                         color: "yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BB543_OR5183?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -288,6 +292,7 @@ export const womenData = {
                         id: 33,
                         color: "red",
                         status: false,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BB543_PK5833?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -334,6 +339,7 @@ export const womenData = {
                         id: 41,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BG691_BR6053?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -384,6 +390,7 @@ export const womenData = {
                         id: 51,
                         color: "Light Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF450_GY5218_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -434,6 +441,7 @@ export const womenData = {
                         id: 61,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/AI670_DM3335_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -492,6 +500,7 @@ export const womenData = {
                         id: 71,
                         color: "brown",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF450_BR6152_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -516,6 +525,7 @@ export const womenData = {
                         id: 72,
                         color: "white",
                         status: false,
+                        quantity: 10,
                         thumb: "hhttps://www.jcrew.com/s7-img-facade/BF450_GY5218?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -566,6 +576,7 @@ export const womenData = {
                         id: 81,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF450_BK0001_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -624,6 +635,7 @@ export const womenData = {
                         id: 91,
                         color: "Yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH647_PT1314_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -678,6 +690,7 @@ export const womenData = {
                         id: 1001,
                         color: "White",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/AY362_OR5678_d1?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -733,6 +746,7 @@ export const womenData = {
                         id: 1101,
                         color: "golden",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BD193_BL6691_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -783,6 +797,7 @@ export const womenData = {
                         id: 1201,
                         color: "Green",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BA015_PK5748_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -837,6 +852,7 @@ export const womenData = {
                         id: 1301,
                         color: "Red",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BE799_BR6203?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -895,6 +911,7 @@ export const womenData = {
                         id: 1401,
                         color: "Black",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH420_BK0001?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -945,6 +962,7 @@ export const womenData = {
                         id: 1501,
                         color: "Multi",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BH396_BR6712_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -999,6 +1017,7 @@ export const womenData = {
                         id: 1601,
                         color: "Yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BA972_EE2793_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1053,6 +1072,7 @@ export const womenData = {
                         id: 1701,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/AY080_PR6127_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1111,6 +1131,7 @@ export const womenData = {
                         id: 1801,
                         color: "White",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF360_BL8133_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1161,6 +1182,7 @@ export const womenData = {
                         id: 1901,
                         color: "Blue",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF360_OR5787_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {
@@ -1215,6 +1237,7 @@ export const womenData = {
                         id: 2001,
                         color: "Yellow",
                         status: true,
+                        quantity: 10,
                         thumb: "https://www.jcrew.com/s7-img-facade/BF360_OR5787?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&crop=0,0,0,0&wid=540&hei=540",
                         images: [
                             {

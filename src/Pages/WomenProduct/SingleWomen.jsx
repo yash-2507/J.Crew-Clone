@@ -25,44 +25,49 @@ const SingleWomen = () => {
     const [showAcc, setShowAcc] = useState(false);
 
     const dispatch = useDispatch();
-    const { singleProduct, products_data } = useSelector((state) => state.women);
+    const { singleProduct, products_data } = useSelector(
+        (state) => state.women
+    );
 
     useEffect(() => {
         let p_data = [...products_data];
-        let sProduct = p_data.filter((item) => {
-            if (item.id == id) {
-                return item;
-            }
-        });
-        console.log(sProduct);
-        setCurrentProduct(sProduct[0]);
-
-        let filterCurrentVariant = sProduct[0].variant.filter((el) => {
-            return el.status && el;
-        });
-        setCurrentVariant({ ...filterCurrentVariant[0] });
-
-        const handleIndianRupees = () => {
-            let x = sProduct[0].price;
-            x = x.toString();
-            let lastThree = x.substring(x.length - 3);
-            let otherNumbers = x.substring(0, x.length - 3);
-            if (otherNumbers !== "") lastThree = "," + lastThree;
-            let res =
-                otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
-            setRupee(res);
-        };
-        handleIndianRupees();
-        let arr = [];
-        for (let i = 0; i < filterCurrentVariant[0].quantity; i++) {
-            arr.push({
-                id: uuidv4(),
-                value: i + 1,
+        if (p_data.length > 0) {
+            let sProduct = p_data.filter((item) => {
+                if (item.id == id) {
+                    return item;
+                }
             });
+            console.log(sProduct);
+            setCurrentProduct(sProduct[0]);
+
+            let filterCurrentVariant = sProduct[0].variant.filter((el) => {
+                return el.status && el;
+            });
+            setCurrentVariant({ ...filterCurrentVariant[0] });
+
+            const handleIndianRupees = () => {
+                let x = sProduct[0].price;
+                x = x.toString();
+                let lastThree = x.substring(x.length - 3);
+                let otherNumbers = x.substring(0, x.length - 3);
+                if (otherNumbers !== "") lastThree = "," + lastThree;
+                let res =
+                    otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") +
+                    lastThree;
+                setRupee(res);
+            };
+            handleIndianRupees();
+            let arr = [];
+            for (let i = 0; i < filterCurrentVariant[0].quantity; i++) {
+                arr.push({
+                    id: uuidv4(),
+                    value: i + 1,
+                });
+            }
+            setQuantity([...arr]);
+            setVID(filterCurrentVariant[0].id);
+            // console.log("hi", id);
         }
-        setQuantity([...arr]);
-        setVID(filterCurrentVariant[0].id);
-        // console.log("hi", id);
     }, [id, products_data]);
 
     const handleCart = () => {
