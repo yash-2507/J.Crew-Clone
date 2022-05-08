@@ -7,6 +7,8 @@ import { openLogin } from "../features/Login/LoginSlice";
 import { User } from "./Icons";
 
 export default function Navbar() {
+    const { cartItems } = useSelector((store) => store.product);
+    // console.log("cartItems: ", cartItems);
     const { isLogin } = useSelector((store) => store.login);
     const dispatch = useDispatch();
     return (
@@ -74,6 +76,13 @@ export default function Navbar() {
                         src="https://www.jcrew.com/next-static/images/jcrew/svg/icon_bag_d.svg"
                         alt=""
                     />
+                    {cartItems.length != 0 ? (
+                        <div className={styles.amount_container}>
+                            <p className={styles.total_amount}>
+                                {cartItems.length}
+                            </p>
+                        </div>
+                    ) : null}
                 </div>
             </div>
         </div>
