@@ -18,7 +18,7 @@ const ProductModal = ({ item, tooggleModal }) => {
   const [currentVariant, setCurrentVariant] = useState({});
   const [rupee, setRupee] = useState(0);
   const [quantity, setQuantity] = useState([]);
-  const [q, setQ] = useState(0);
+  const [q, setQ] = useState(1);
   const dispatch = useDispatch();
   const [vID, setVID] = useState(0);
   const [showAcc, setShowAcc] = useState(false);
@@ -63,6 +63,7 @@ const ProductModal = ({ item, tooggleModal }) => {
         quantity: q,
       })
     );
+    alert("Item Added to Cart");
   };
 
   const handleChangeSize = (id) => {
