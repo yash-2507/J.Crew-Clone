@@ -1,11 +1,13 @@
 import "./App.css";
+import OtpPage from "./OTP/OtpPage";
 // import CheckOut from "./components/checkOut_page/CheckOut";
-import LastPayment from "./components/LastPayment";
+// import LastPayment from "./components/LastPayment";
 
 function App() {
     return <div>
-       <LastPayment/>
+       {/* <LastPayment/> */}
        {/* <CheckOut/> */}
+      <OtpPage/>
     </div>;
 }
 

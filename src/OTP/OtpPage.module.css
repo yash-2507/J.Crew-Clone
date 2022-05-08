@@ -1,0 +1,71 @@
+.maxWitdthDiv{
+    max-width: 1440px;
+    margin: auto;
+}
+.maxWitdthDiv>div>div{
+    width: 380px;
+    padding: 10px;
+    border-radius: 22px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    height:  400px;
+}
+
+.maxWitdthDiv>div{
+    height: 100vh;
+}
+
+body{
+    background-color: #eee;
+}
+
+.maxWitdthDiv>div>div>div:last-child>span:first-child{
+  color: #989696b8;
+  font-size: 12px;
+}
+.maxWitdthDiv>div>div>div>input:focus{
+  color: #4e5357;
+  background-color: #fff;
+  outline: 0;
+  
+}
+
+.maxWitdthDiv>div>div>div:last-child>span:last-child{
+    cursor: pointer;
+}
+.maxWitdthDiv>div>div>div>input{
+    margin-right: 10px;
+}
+h5{
+    text-align: center;
+}
+.maxWitdthDiv>div>div>div>input{
+    padding-left: 35px;
+}
+
+.submitBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitBtn>button{
+    background-color: rgb(24, 22, 22);
+    color: white;
+    font-size: 18px;
+    height: 37px;
+    width : 110px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.submitBtn>button:hover{
+    background-color: rgb(85, 79, 79);
+    
+    
+}
+
+.maxWitdthDiv>div>:first-child>span{
+    padding-top: 20px;
+    text-align: center;
+}
