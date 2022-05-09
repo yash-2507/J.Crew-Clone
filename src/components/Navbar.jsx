@@ -8,7 +8,7 @@ import { User } from "./Icons";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
-    const { cartItems } = useSelector((store) => store.product);
+    const { cartItems, cartTotalItems } = useSelector((store) => store.product);
     // console.log("cartItems: ", cartItems);
     const { isLogin } = useSelector((store) => store.login);
     const dispatch = useDispatch();
@@ -86,7 +86,7 @@ export default function Navbar() {
                     {cartItems.length != 0 ? (
                         <div className={styles.amount_container}>
                             <p className={styles.total_amount}>
-                                {cartItems.length}
+                                {cartTotalItems}
                             </p>
                         </div>
                     ) : null}

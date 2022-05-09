@@ -54,6 +54,14 @@
   font-weight: 600;
   letter-spacing: 0.6px;
 }
+.items span {
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.items span:hover {
+  color: blue;
+}
 
 .mid {
   width: 100%;
@@ -214,7 +222,10 @@
   flex-direction: column;
   margin-top: 40px;
 }
-.checkout_container a {
+.checkout_container button {
+  cursor: pointer;
+  border: none;
+  outline: none;
   text-decoration: none;
   background-color: #0161ff;
   width: 100%;
