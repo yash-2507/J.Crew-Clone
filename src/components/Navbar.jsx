@@ -5,12 +5,14 @@ import { HeartIcon, MainLogo } from "./SvgIcons";
 import { useDispatch, useSelector } from "react-redux";
 import { openLogin } from "../features/Login/LoginSlice";
 import { User } from "./Icons";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
     const { cartItems } = useSelector((store) => store.product);
     // console.log("cartItems: ", cartItems);
     const { isLogin } = useSelector((store) => store.login);
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     return (
         <div className={styles.nav_parent}>
             <div className={styles.nav_logo}>
@@ -70,7 +72,12 @@ export default function Navbar() {
                 <div className={styles.nav_icons}>
                     <HeartIcon />
                 </div>
-                <div className={styles.nav_icons}>
+                <div
+                    className={styles.nav_icons}
+                    onClick={() => {
+                        navigate("/cart");
+                    }}
+                >
                     {/* <Cart /> */}
                     <img
                         src="https://www.jcrew.com/next-static/images/jcrew/svg/icon_bag_d.svg"
