@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./styles/Checkout.module.css";
 const SingleProductItem = ({ item }) => {
-  console.log(item);
+  // console.log(item);
   const [rupee, setRupee] = useState(0);
   const handleIndianRupees = (value) => {
     let x = value;
