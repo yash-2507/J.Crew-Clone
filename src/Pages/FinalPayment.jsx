@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "../components/styles/FinalPayment.module.css";
 
 export default function FinalPayment() {
+    const navigate = useNavigate();
     return (
         <div className={styles.container}>
             <div className={styles.parent}>
@@ -146,6 +148,11 @@ export default function FinalPayment() {
                                         >
                                             <div
                                                 className={styles.paymentButton}
+                                                onClick={() =>
+                                                    navigate(
+                                                        "/checkOut/payment/OTPvalidation"
+                                                    )
+                                                }
                                             >
                                                 PAY NOW
                                             </div>
