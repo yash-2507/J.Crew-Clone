@@ -17,6 +17,7 @@ import { get_kids_products } from "../features/Kids/KidsSlice";
 import { get_products } from "../features/Product/productSlice";
 import { get_women_products } from "../features/Women/WomenSlice";
 import Cart from "./Cart";
+import Checkout from "./Checkout";
 
 export default function Index() {
   const dispatch = useDispatch();
@@ -44,6 +45,7 @@ export default function Index() {
         <Route exact path="/products/women" element={<WomenProductPage />} />
         <Route exact path="/products/women/:id" element={<SingleWomen />} />
         <Route exact path="/cart" element={<Cart />} />
+        <Route exact path="/checkOut" element={<Checkout />} />
       </Routes>
       <Footer />
     </>

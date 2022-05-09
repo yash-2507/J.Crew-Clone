@@ -112,7 +112,7 @@ const Cart = () => {
               </div>
             </div>
             <div className={styles.checkout_container}>
-              <Link to="/">CHECK OUT NOW</Link>
+              <Link to="/checkout">CHECK OUT NOW</Link>
               <div>
                 <p className={styles.dim}>
                   By clicking ‘Check Out Now’, you will be redirected to the

@@ -19,6 +19,12 @@ const initialState = {
   apply_promo_status: true,
   estimated_subtoal: 0,
   singleProduct: {},
+  payment_with_charge: 0,
+  express_charge: 2052,
+  standard_charge: 1071,
+  express_charge_status: true,
+  standard_charge_status: true,
+  current_charge: 0,
 };
 
 const productSlice = createSlice({
@@ -97,12 +103,18 @@ const productSlice = createSlice({
       state.sub_total = sub_toal;
       state.estimated_subtoal = sub_toal;
       state.cartTotalItems = items;
+      state.payment_with_charge = state.sub_total + state.standard_charge;
+      state.current_charge = state.standard_charge;
+      state.standard_charge_status = false;
     },
     apply_promo_code: (state, { payload }) => {
       state.apply_promo_status = false;
       state.estimated_subtoal =
         state.estimated_subtoal - state.estimated_subtoal * 0.3;
       state.sub_total = state.sub_total - state.sub_total * 0.3;
+      state.payment_with_charge = state.sub_total + state.standard_charge;
+      state.current_charge = state.standard_charge;
+      state.standard_charge_status = false;
     },
     change_variant_size: (state, { payload }) => {
       let changeData = [...state.products_data];
@@ -159,10 +171,32 @@ const productSlice = createSlice({
       state.sub_total = sub_toal;
       state.estimated_subtoal = sub_toal;
       state.cartTotalItems = items;
+      state.payment_with_charge = state.sub_total + state.standard_charge;
+      state.current_charge = state.standard_charge;
+      state.standard_charge_status = false;
       // }
     },
     change_filter: (state, { payload }) => {
       state.filters[payload].status = !state.filters[payload].status;
+    },
+    update_total_with_charge: (state, { payload }) => {
+      if (payload.key == "e" && state.express_charge_status) {
+        state.payment_with_charge =
+          state.payment_with_charge -
+          state.standard_charge +
+          state.express_charge;
+        state.current_charge = state.express_charge;
+        state.express_charge_status = false;
+        state.standard_charge_status = true;
+      } else if (payload.key == "s" && state.standard_charge_status) {
+        state.payment_with_charge =
+          state.payment_with_charge -
+          state.express_charge +
+          state.standard_charge;
+        state.express_charge_status = true;
+        state.current_charge = state.standard_charge;
+        state.standard_charge_status = false;
+      }
     },
     get_single_product: (state, { payload }) => {
       state.singleProduct = { ...payload.sProduct };
@@ -190,6 +224,7 @@ export const {
   get_single_product,
   remove_cart_item,
   apply_promo_code,
+  update_total_with_charge,
 } = productSlice.actions;
 
 export default productSlice.reducer;
