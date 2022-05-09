@@ -8,17 +8,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-  const { isOpen } = useSelector((store) => store.modal);
-  const { isLoginOpen, isSignUpOpen } = useSelector((store) => store.login);
-  return (
-    <div className="App">
-      {/* <Navbar /> */}
-      {isLoginOpen && <LoginModal />}
-      {isSignUpOpen && <SignUpModal />}
-      {isOpen && <ModalMain />}
-      <Index />
-    </div>
-  );
+    const { isOpen } = useSelector((store) => store.modal);
+    const { isLoginOpen, isSignUpOpen } = useSelector((store) => store.login);
+    return (
+        <div className="App">
+            {isLoginOpen && <LoginModal />}
+            {isSignUpOpen && <SignUpModal />}
+            {isOpen && <ModalMain />}
+            <Index />
+        </div>
+    );
 }
 
 export default App;
