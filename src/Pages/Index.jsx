@@ -24,7 +24,6 @@ import SingleHome from "./HomeProduct/SingleHome";
 import FinalPayment from "./FinalPayment";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
-import OtpPage from "./OTP_Validation";
 
 export default function Index() {
     const dispatch = useDispatch();
@@ -86,11 +85,6 @@ export default function Index() {
                     element={<FinalPayment />}
                 />
                 <Route exact path="/cart" element={<Cart />} />
-                <Route
-                    exact
-                    path="/checkOut/payment/OTPvalidation"
-                    element={<OtpPage />}
-                />
             </Routes>
 
             <Footer />
