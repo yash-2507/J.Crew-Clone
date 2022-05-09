@@ -84,7 +84,7 @@ export default function Index() {
                     element={<FinalPayment />}
                 />
             </Routes>
-
+            <Route exact path="/cart" element={<Cart />} />
             <Footer />
         </>
     );

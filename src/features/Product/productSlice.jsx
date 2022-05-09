@@ -14,6 +14,10 @@ const initialState = {
   filters: [],
   filterObj: [],
   cartItems: [],
+  cartTotalItems: 0,
+  sub_total: 0,
+  apply_promo_status: true,
+  estimated_subtoal: 0,
   singleProduct: {},
 };
 
@@ -82,6 +86,24 @@ const productSlice = createSlice({
         );
       });
     },
+    remove_cart_item: (state, { payload }) => {
+      state.cartItems = [...payload.changedData];
+      let items = state.cartItems.reduce((x, y) => {
+        return x + Number(y.quantity);
+      }, 0);
+      let sub_toal = state.cartItems.reduce((x, y) => {
+        return x + Number(y.quantity) * Number(y.price);
+      }, 0);
+      state.sub_total = sub_toal;
+      state.estimated_subtoal = sub_toal;
+      state.cartTotalItems = items;
+    },
+    apply_promo_code: (state, { payload }) => {
+      state.apply_promo_status = false;
+      state.estimated_subtoal =
+        state.estimated_subtoal - state.estimated_subtoal * 0.3;
+      state.sub_total = state.sub_total - state.sub_total * 0.3;
+    },
     change_variant_size: (state, { payload }) => {
       let changeData = [...state.products_data];
       changeData.map((el) => {
@@ -128,6 +150,15 @@ const productSlice = createSlice({
       //   }
       // } else {
       state.cartItems = [...state.cartItems, payload.item];
+      let items = state.cartItems.reduce((x, y) => {
+        return x + Number(y.quantity);
+      }, 0);
+      let sub_toal = state.cartItems.reduce((x, y) => {
+        return x + Number(y.quantity) * Number(y.price);
+      }, 0);
+      state.sub_total = sub_toal;
+      state.estimated_subtoal = sub_toal;
+      state.cartTotalItems = items;
       // }
     },
     change_filter: (state, { payload }) => {
@@ -157,6 +188,8 @@ export const {
   update_quantity,
   update_cart_items,
   get_single_product,
+  remove_cart_item,
+  apply_promo_code,
 } = productSlice.actions;
 
 export default productSlice.reducer;
