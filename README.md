@@ -1,6 +1,6 @@
 # CONSTRUCT WEEK - Unit 4 
-Deployed Link: https://snazzy-horse-6fab01.netlify.app \n
-Project Name: J.Crew Clone \n
+Deployed Link: https://snazzy-horse-6fab01.netlify.app <br />
+Project Name: J.Crew Clone <br/>
 Time: 6 days 
 
 # Team Members:
